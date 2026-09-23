@@ -1,0 +1,47 @@
+{
+  "n_agents": 150,
+  "troll": 0.05,
+  "draws": 20000,
+  "n_dirs": 8,
+  "half_step_deg": 22.5,
+  "uniform_rms_deg": 12.99038105676658,
+  "triangular_rms_deg": 9.185586535436919,
+  "rms_single_deg": 27.500285640763575,
+  "rms_accurate_deg": 13.13202286450665,
+  "rms_blend_deg": 10.571478520692834,
+  "paper_measured_deg": 8.6,
+  "paper_claimed_deg": 9.19,
+  "on_trajectory": {
+    "v1.00": {
+      "rms_deg": 4.842938560878954,
+      "rms_straight_deg": 1.9311268834064426,
+      "rms_corner_deg": 10.539218043564329,
+      "n_ticks": 800,
+      "corner_frac": 0.18375
+    },
+    "v1.50": {
+      "rms_deg": 6.375363791106985,
+      "rms_straight_deg": 4.020849149246769,
+      "rms_corner_deg": 12.335165766246266,
+      "n_ticks": 800,
+      "corner_frac": 0.18
+    },
+    "v2.00": {
+      "rms_deg": 9.571396183677022,
+      "rms_straight_deg": 9.320473020666608,
+      "rms_corner_deg": 10.657285718395942,
+      "n_ticks": 800,
+      "corner_frac": 0.1775
+    },
+    "v2.50": {
+      "rms_deg": 13.877229381245394,
+      "rms_straight_deg": 14.73738655574924,
+      "rms_corner_deg": 9.70181563029253,
+      "n_ticks": 800,
+      "corner_frac": 0.2
+    }
+  },
+  "side": 10.0,
+  "tau_ms": 433,
+  "dur_s": 240.0
+}

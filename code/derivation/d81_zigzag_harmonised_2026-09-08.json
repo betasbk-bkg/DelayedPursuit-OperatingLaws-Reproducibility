@@ -1,0 +1,136 @@
+{
+  "look": 2.0,
+  "tau_tot": 0.6663333333333333,
+  "horizon_s": 65.0,
+  "v_max": 5.0,
+  "square_side": 20.0,
+  "circle_perimeter": 62.83185307179586,
+  "candidates": [
+    {
+      "name": "as shipped",
+      "note": "amp = sx = 5; inherits nothing",
+      "tooth_m": 7.0710678118654755,
+      "sx_m": 5.0,
+      "amp_m": 5.0,
+      "seg_over_L": 3.5355339059327378,
+      "unit_m": 14.142135623730951,
+      "v_iso": [
+        0.6090809056574631,
+        1.6662191614150366
+      ],
+      "v_lap_min": 0.3263569759322527,
+      "v_usable": [
+        0.6090809056574631,
+        1.6662191614150366
+      ],
+      "n_grid": 4,
+      "ns_min": 46,
+      "corners_per_100m": 14.14213562373095
+    },
+    {
+      "name": "tooth = Square side",
+      "note": "same straight run, same seg/L, same corner angle",
+      "tooth_m": 20.0,
+      "sx_m": 14.14213562373095,
+      "amp_m": 14.14213562373095,
+      "seg_over_L": 10.0,
+      "unit_m": 40.0,
+      "v_iso": [
+        0.060030015007503754,
+        2.645387070259623
+      ],
+      "v_lap_min": 0.9230769230769231,
+      "v_usable": [
+        0.9230769230769231,
+        2.645387070259623
+      ],
+      "n_grid": 7,
+      "ns_min": 17,
+      "corners_per_100m": 5.0
+    },
+    {
+      "name": "unit = Square perimeter",
+      "note": "same repeating unit, so the same horizon rule",
+      "tooth_m": 40.0,
+      "sx_m": 28.2842712474619,
+      "amp_m": 28.2842712474619,
+      "seg_over_L": 20.0,
+      "unit_m": 80.0,
+      "v_iso": [
+        0.060030015007503754,
+        3.2954502909401384
+      ],
+      "v_lap_min": 1.8461538461538463,
+      "v_usable": [
+        1.8461538461538463,
+        3.2954502909401384
+      ],
+      "n_grid": 6,
+      "ns_min": 9,
+      "corners_per_100m": 2.5
+    },
+    {
+      "name": "unit = Circle perimeter",
+      "note": "the manuscript's length normalisation, applied to the unit",
+      "tooth_m": 31.41592653589793,
+      "sx_m": 22.21441469079183,
+      "amp_m": 22.21441469079183,
+      "seg_over_L": 15.707963267948966,
+      "unit_m": 62.83185307179586,
+      "v_iso": [
+        0.060030015007503754,
+        3.0775988141922106
+      ],
+      "v_lap_min": 1.449965840118366,
+      "v_usable": [
+        1.449965840118366,
+        3.0775988141922106
+      ],
+      "n_grid": 7,
+      "ns_min": 11,
+      "corners_per_100m": 3.183098861837907
+    },
+    {
+      "name": "d80 count-optimal",
+      "note": "sx = 10 chosen to maximise usable points -- a free parameter",
+      "tooth_m": 14.142135623730951,
+      "sx_m": 10.0,
+      "amp_m": 10.0,
+      "seg_over_L": 7.0710678118654755,
+      "unit_m": 28.284271247461902,
+      "v_iso": [
+        0.060030015007503754,
+        2.3069724899268373
+      ],
+      "v_lap_min": 0.6527139518645054,
+      "v_usable": [
+        0.6527139518645054,
+        2.3069724899268373
+      ],
+      "n_grid": 7,
+      "ns_min": 23,
+      "corners_per_100m": 7.071067811865475
+    }
+  ],
+  "recommended": {
+    "name": "tooth = Square side",
+    "note": "same straight run, same seg/L, same corner angle",
+    "tooth_m": 20.0,
+    "sx_m": 14.14213562373095,
+    "amp_m": 14.14213562373095,
+    "seg_over_L": 10.0,
+    "unit_m": 40.0,
+    "v_iso": [
+      0.060030015007503754,
+      2.645387070259623
+    ],
+    "v_lap_min": 0.9230769230769231,
+    "v_usable": [
+      0.9230769230769231,
+      2.645387070259623
+    ],
+    "n_grid": 7,
+    "ns_min": 17,
+    "corners_per_100m": 5.0
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "horizon_s": 65.0,
+  "grid": [
+    0.25,
+    0.5,
+    0.75,
+    1.0,
+    1.25,
+    1.5,
+    1.75,
+    2.0,
+    2.25,
+    2.5,
+    2.75,
+    3.0,
+    3.25,
+    3.5,
+    3.75,
+    4.0,
+    4.25,
+    4.5,
+    4.75,
+    5.0
+  ],
+  "geoms": {
+    "circle": {
+      "arclen_m": 62.83185307179586,
+      "corners": null,
+      "seg_over_look": null,
+      "v_1lap": 0.966643893412244,
+      "v_1p5lap": 1.449965840118366,
+      "v_4corners": NaN,
+      "n_1lap": 17,
+      "n_1p5lap": 15,
+      "n_4corners": null
+    },
+    "square": {
+      "arclen_m": 80.0,
+      "corners": 4,
+      "seg_over_look": 10.0,
+      "v_1lap": 1.2307692307692308,
+      "v_1p5lap": 1.8461538461538463,
+      "v_4corners": 1.2307692307692308,
+      "n_1lap": 16,
+      "n_1p5lap": 13,
+      "n_4corners": 16
+    },
+    "lemniscate": {
+      "arclen_m": 36.65349419799778,
+      "corners": null,
+      "seg_over_look": null,
+      "v_1lap": 0.5638999107384274,
+      "v_1p5lap": 0.845849866107641,
+      "v_4corners": NaN,
+      "n_1lap": 18,
+      "n_1p5lap": 17,
+      "n_4corners": null
+    },
+    "zigzag (open, shipped)": {
+      "arclen_m": 70.71067811865476,
+      "corners": 9,
+      "seg_over_look": 3.928371006591931,
+      "v_1lap": 1.0878565864408425,
+      "v_1p5lap": 1.6317848796612635,
+      "v_4corners": 0.48349181619592996,
+      "n_1lap": 16,
+      "n_1p5lap": 14,
+      "n_4corners": 19
+    },
+    "zigzag (closed)": {
+      "arclen_m": 155.4213562373095,
+      "corners": 22,
+      "seg_over_look": 3.5323035508479435,
+      "v_1lap": 2.3910977882663,
+      "v_1p5lap": 3.5866466823994503,
+      "v_4corners": 0.4347450524120546,
+      "n_1lap": 11,
+      "n_1p5lap": 6,
+      "n_4corners": 19
+    }
+  }
+}

@@ -1,0 +1,872 @@
+{
+  "derived": 0.306034,
+  "self_test": 0.0,
+  "pooled": {
+    "u_stored|filtered": {
+      "n": 51,
+      "mean": 0.30290847235299634,
+      "sd_pct": 5.122175527463951,
+      "dev_pct": -1.0213007858615786
+    },
+    "u_stored|all": {
+      "n": 51,
+      "mean": 0.30290847235299634,
+      "sd_pct": 5.122175527463951,
+      "dev_pct": -1.0213007858615786
+    },
+    "u_3pt|filtered": {
+      "n": 51,
+      "mean": 0.30290847235299634,
+      "sd_pct": 5.12217552746395,
+      "dev_pct": -1.0213007858615786
+    },
+    "u_3pt|all": {
+      "n": 51,
+      "mean": 0.30290847235299634,
+      "sd_pct": 5.12217552746395,
+      "dev_pct": -1.0213007858615786
+    },
+    "u_bowl|filtered": {
+      "n": 51,
+      "mean": 0.2839682957324484,
+      "sd_pct": 5.159395707691874,
+      "dev_pct": -7.210213331705484
+    },
+    "u_bowl|all": {
+      "n": 51,
+      "mean": 0.2839682957324484,
+      "sd_pct": 5.159395707691874,
+      "dev_pct": -7.210213331705484
+    },
+    "u_sym|filtered": {
+      "n": 51,
+      "mean": 0.2948524879225118,
+      "sd_pct": 4.74791383990117,
+      "dev_pct": -3.6536829494396628
+    },
+    "u_sym|all": {
+      "n": 51,
+      "mean": 0.2948524879225118,
+      "sd_pct": 4.74791383990117,
+      "dev_pct": -3.6536829494396628
+    }
+  },
+  "rows": [
+    {
+      "block": "E2 freq",
+      "stored_how": "parabola",
+      "k": 0.21666666666666667,
+      "u_stored": 0.3048345399486447,
+      "u_3pt": 0.3048345399486447,
+      "how_3pt": "parabola",
+      "u_bowl": 0.28725081879746495,
+      "how_bowl": "bowl",
+      "u_sym": 0.2965795257999992,
+      "how_sym": "symmetric",
+      "u_sym_band": [
+        0.28847648415098176,
+        0.3048345399486482
+      ]
+    },
+    {
+      "block": "E2 freq",
+      "stored_how": "parabola",
+      "k": 0.2583333333333333,
+      "u_stored": 0.3211720337813606,
+      "u_3pt": 0.3211720337813606,
+      "how_3pt": "parabola",
+      "u_bowl": 0.28503678554741624,
+      "how_bowl": "bowl",
+      "u_sym": 0.29919339453139987,
+      "how_sym": "symmetric",
+      "u_sym_band": [
+        0.2919423977384457,
+        0.32117203378136333
+      ]
+    },
+    {
+      "block": "E2 freq",
+      "stored_how": "parabola",
+      "k": 0.3416666666666667,
+      "u_stored": 0.27358763293675037,
+      "u_3pt": 0.27358763293675037,
+      "how_3pt": "parabola",
+      "u_bowl": 0.27387693198579743,
+      "how_bowl": "bowl",
+      "u_sym": 0.2830552655500214,
+      "how_sym": "symmetric",
+      "u_sym_band": [
+        0.27358763293675487,
+        0.2830552655500214
+      ]
+    },
+    {
+      "block": "E2 freq",
+      "stored_how": "parabola",
+      "k": 0.4250025000250003,
+      "u_stored": 0.31176341132088914,
+      "u_3pt": 0.31176341132088914,
+      "how_3pt": "parabola",
+      "u_bowl": 0.2767266358873256,
+      "how_bowl": "bowl",
+      "u_sym": 0.29553457326862287,
+      "how_sym": "symmetric",
+      "u_sym_band": [
+        0.28438807726811716,
+        0.3117634113208913
+      ]
+    },
+    {
+      "block": "E2 freq",
+      "stored_how": "parabola",
+      "k": 0.5083333333333335,
+      "u_stored": 0.2690627893541774,
+      "u_3pt": 0.2690627893541774,
+      "how_3pt": "parabola",
+      "u_bowl": 0.25697674428371947,
+      "how_bowl": "bowl",
+      "u_sym": 0.26187392474314697,
+      "how_sym": "symmetric",
+      "u_sym_band": [
+        0.26187392474314697,
+        0.26906278935418193
+      ]
+    },
+    {
+      "block": "E2 freq",
+      "stored_how": "parabola",
+      "k": 0.5916666666666666,
+      "u_stored": 0.2847493330346334,
+      "u_3pt": 0.2847493330346334,
+      "how_3pt": "parabola",
+      "u_bowl": 0.2527155489139812,
+      "how_bowl": "bowl",
+      "u_sym": 0.26844090330951764,
+      "how_sym": "symmetric",
+      "u_sym_band": [
+        0.2590077034841373,
+        0.2847493330346382
+      ]
+    },
+    {
+      "block": "E3 tsim",
+      "stored_how": "parabola",
+      "k": 0.3791666666666667,
+      "u_stored": 0.3095468193044598,
+      "u_3pt": 0.3095468193044598,
+      "how_3pt": "parabola",
+      "u_bowl": 0.28500346935871534,
+      "how_bowl": "bowl",
+      "u_sym": 0.302657996998063,
+      "how_sym": "symmetric",
+      "u_sym_band": [
+        0.2945259418683339,
+        0.3095468193044621
+      ]
+    },
+    {
+      "block": "E3 tsim",
+      "stored_how": "parabola",
+      "k": 0.38333333333333336,
+      "u_stored": 0.3065021536497203,
+      "u_3pt": 0.3065021536497203,
+      "how_3pt": "parabola",
+      "u_bowl": 0.28214128968566554,
+      "how_bowl": "bowl",
+      "u_sym": 0.29956451291493674,
+      "how_sym": "symmetric",
+      "u_sym_band": [
+        0.2915566660138972,
+        0.3065021536497224
+      ]
+    },
+    {
+      "block": "E3 tsim",
+      "stored_how": "parabola",
+      "k": 0.39166666666666666,
+      "u_stored": 0.31441396814945927,
+      "u_3pt": 0.31441396814945927,
+      "how_3pt": "parabola",
+      "u_bowl": 0.2896528944075717,
+      "how_bowl": "bowl",
+      "u_sym": 0.30928058687607307,
+      "how_sym": "symmetric",
+      "u_sym_band": [
+        0.30127235750595227,
+        0.31441396814946176
+      ]
+    },
+    {
+      "block": "E3 tsim",
+      "stored_how": "parabola",
+      "k": 0.41666666666666674,
+      "u_stored": 0.31831236159853415,
+      "u_3pt": 0.31831236159853415,
+      "how_3pt": "parabola",
+      "u_bowl": 0.2967863195550298,
+      "how_bowl": "bowl",
+      "u_sym": 0.31261649520158125,
+      "how_sym": "symmetric",
+      "u_sym_band": [
+        0.3055125433638022,
+        0.31831236159853654
+      ]
+    },
+    {
+      "block": "E3 tsim",
+      "stored_how": "parabola",
+      "k": 0.45833333333333337,
+      "u_stored": 0.2870345862641945,
+      "u_3pt": 0.2870345862641945,
+      "how_3pt": "parabola",
+      "u_bowl": 0.2741584488107429,
+      "how_bowl": "bowl",
+      "u_sym": 0.28124266056967956,
+      "how_sym": "symmetric",
+      "u_sym_band": [
+        0.2761784787661807,
+        0.2870345862641993
+      ]
+    },
+    {
+      "block": "E4 lookahead",
+      "stored_how": "parabola",
+      "k": 0.7666666666666668,
+      "u_stored": 0.3129393820882228,
+      "u_3pt": 0.3129393820882228,
+      "how_3pt": "parabola",
+      "u_bowl": 0.2867013926087018,
+      "how_bowl": "bowl",
+      "u_sym": 0.3073150101601201,
+      "how_sym": "symmetric",
+      "u_sym_band": [
+        0.29965978423234735,
+        0.31293938208822525
+      ]
+    },
+    {
+      "block": "E4 lookahead",
+      "stored_how": "parabola",
+      "k": 0.5111111111111112,
+      "u_stored": 0.3137273033868271,
+      "u_3pt": 0.3137273033868271,
+      "how_3pt": "parabola",
+      "u_bowl": 0.2868504160452291,
+      "how_bowl": "bowl",
+      "u_sym": 0.3084913602008073,
+      "how_sym": "symmetric",
+      "u_sym_band": [
+        0.29474477852504377,
+        0.31372730338682914
+      ]
+    },
+    {
+      "block": "E4 lookahead",
+      "stored_how": "parabola",
+      "k": 0.3833333333333334,
+      "u_stored": 0.31352057704769914,
+      "u_3pt": 0.31352057704769914,
+      "how_3pt": "parabola",
+      "u_bowl": 0.28819859458051594,
+      "how_bowl": "bowl",
+      "u_sym": 0.3020298174247434,
+      "how_sym": "symmetric",
+      "u_sym_band": [
+        0.29594059492107944,
+        0.3135205770477011
+      ]
+    },
+    {
+      "block": "E4 lookahead",
+      "stored_how": "parabola",
+      "k": 0.25555555555555554,
+      "u_stored": 0.3120013223750964,
+      "u_3pt": 0.3120013223750964,
+      "how_3pt": "parabola",
+      "u_bowl": 0.2888994836840626,
+      "how_bowl": "bowl",
+      "u_sym": 0.30607578027073906,
+      "how_sym": "symmetric",
+      "u_sym_band": [
+        0.2977739740847691,
+        0.3120013223750989
+      ]
+    },
+    {
+      "block": "E5 alpha (a<=90)",
+      "stored_how": "parabola",
+      "k": 0.38333333333333336,
+      "u_stored": 0.31344163420251764,
+      "u_3pt": 0.31344163420251764,
+      "how_3pt": "parabola",
+      "u_bowl": 0.282695930309772,
+      "how_bowl": "bowl",
+      "u_sym": 0.2996815771117353,
+      "how_sym": "symmetric",
+      "u_sym_band": [
+        0.29240591612473565,
+        0.3134416342025196
+      ]
+    },
+    {
+      "block": "E5 alpha (a<=90)",
+      "stored_how": "parabola",
+      "k": 0.38333333333333336,
+      "u_stored": 0.3089566735164774,
+      "u_3pt": 0.3089566735164774,
+      "how_3pt": "parabola",
+      "u_bowl": 0.2842409800104919,
+      "how_bowl": "bowl",
+      "u_sym": 0.29987700059413497,
+      "how_sym": "symmetric",
+      "u_sym_band": [
+        0.2925021294229705,
+        0.3089566735164795
+      ]
+    },
+    {
+      "block": "E5 alpha (a<=90)",
+      "stored_how": "parabola",
+      "k": 0.38333333333333336,
+      "u_stored": 0.2996505264455592,
+      "u_3pt": 0.2996505264455592,
+      "how_3pt": "parabola",
+      "u_bowl": 0.2811947661390972,
+      "how_bowl": "bowl",
+      "u_sym": 0.2960545203564326,
+      "how_sym": "symmetric",
+      "u_sym_band": [
+        0.2864185642253821,
+        0.2996505264455611
+      ]
+    },
+    {
+      "block": "E5 alpha (a<=90)",
+      "stored_how": "parabola",
+      "k": 0.38333333333333336,
+      "u_stored": 0.30707846465891403,
+      "u_3pt": 0.30707846465891403,
+      "how_3pt": "parabola",
+      "u_bowl": 0.28418023842300466,
+      "how_bowl": "bowl",
+      "u_sym": 0.3017947730059268,
+      "how_sym": "symmetric",
+      "u_sym_band": [
+        0.29347276577114967,
+        0.30707846465891614
+      ]
+    },
+    {
+      "block": "E6 nulls",
+      "stored_how": "parabola",
+      "k": 0.38333333333333336,
+      "u_stored": 0.30479821028364,
+      "u_3pt": 0.30479821028364,
+      "how_3pt": "parabola",
+      "u_bowl": 0.2965981725904607,
+      "how_bowl": "bowl",
+      "u_sym": 0.2965981725904607,
+      "how_sym": "symmetric",
+      "u_sym_band": [
+        0.2965981725904607,
+        0.3047982102836404
+      ]
+    },
+    {
+      "block": "E6 nulls",
+      "stored_how": "parabola",
+      "k": 0.38333333333333336,
+      "u_stored": 0.31166426385824775,
+      "u_3pt": 0.31166426385824775,
+      "how_3pt": "parabola",
+      "u_bowl": 0.3036228876018133,
+      "how_bowl": "bowl",
+      "u_sym": 0.3036228876018133,
+      "how_sym": "symmetric",
+      "u_sym_band": [
+        0.3036228876018133,
+        0.31166426385824786
+      ]
+    },
+    {
+      "block": "E6 nulls",
+      "stored_how": "parabola",
+      "k": 0.38333333333333336,
+      "u_stored": 0.3122502224710343,
+      "u_3pt": 0.3122502224710343,
+      "how_3pt": "parabola",
+      "u_bowl": 0.30106411334813554,
+      "how_bowl": "bowl",
+      "u_sym": 0.30106411334813554,
+      "how_sym": "symmetric",
+      "u_sym_band": [
+        0.30106411334813554,
+        0.31225022247103457
+      ]
+    },
+    {
+      "block": "E6 nulls",
+      "stored_how": "parabola",
+      "k": 0.3833333333333334,
+      "u_stored": 0.31124050404931486,
+      "u_3pt": 0.31124050404931486,
+      "how_3pt": "parabola",
+      "u_bowl": 0.3030882573327453,
+      "how_bowl": "bowl",
+      "u_sym": 0.3030882573327453,
+      "how_sym": "symmetric",
+      "u_sym_band": [
+        0.3030882573327453,
+        0.3112405040493151
+      ]
+    },
+    {
+      "block": "E6 nulls",
+      "stored_how": "parabola",
+      "k": 0.38333333333333336,
+      "u_stored": 0.306272247273928,
+      "u_3pt": 0.306272247273928,
+      "how_3pt": "parabola",
+      "u_bowl": 0.30014074707987654,
+      "how_bowl": "bowl",
+      "u_sym": 0.30014074707987654,
+      "how_sym": "symmetric",
+      "u_sym_band": [
+        0.30014074707987654,
+        0.30627224727392843
+      ]
+    },
+    {
+      "block": "E6 nulls",
+      "stored_how": "parabola",
+      "k": 0.3833333333333334,
+      "u_stored": 0.3124655611956708,
+      "u_3pt": 0.3124655611956708,
+      "how_3pt": "parabola",
+      "u_bowl": 0.3008330518950064,
+      "how_bowl": "bowl",
+      "u_sym": 0.3008330518950064,
+      "how_sym": "symmetric",
+      "u_sym_band": [
+        0.3008330518950064,
+        0.3124655611956709
+      ]
+    },
+    {
+      "block": "E6 nulls",
+      "stored_how": "parabola",
+      "k": 0.38333333333333336,
+      "u_stored": 0.3120530907986241,
+      "u_3pt": 0.3120530907986241,
+      "how_3pt": "parabola",
+      "u_bowl": 0.30085362287150913,
+      "how_bowl": "bowl",
+      "u_sym": 0.30085362287150913,
+      "how_sym": "symmetric",
+      "u_sym_band": [
+        0.30085362287150913,
+        0.31205309079862426
+      ]
+    },
+    {
+      "block": "E6 nulls",
+      "stored_how": "parabola",
+      "k": 0.3833333333333333,
+      "u_stored": 0.3121922898486715,
+      "u_3pt": 0.3121922898486715,
+      "how_3pt": "parabola",
+      "u_bowl": 0.2980872364999591,
+      "how_bowl": "bowl",
+      "u_sym": 0.2980872364999591,
+      "how_sym": "symmetric",
+      "u_sym_band": [
+        0.2980872364999591,
+        0.3121922898486717
+      ]
+    },
+    {
+      "block": "E6 nulls",
+      "stored_how": "parabola",
+      "k": 0.38333333333333336,
+      "u_stored": 0.31206492927477386,
+      "u_3pt": 0.31206492927477386,
+      "how_3pt": "parabola",
+      "u_bowl": 0.30047346613064674,
+      "how_bowl": "bowl",
+      "u_sym": 0.30047346613064674,
+      "how_sym": "symmetric",
+      "u_sym_band": [
+        0.30047346613064674,
+        0.3120649292747742
+      ]
+    },
+    {
+      "block": "E7 replicate",
+      "stored_how": "parabola",
+      "k": 0.3833333333333334,
+      "u_stored": 0.31218783669516575,
+      "u_3pt": 0.31218783669516575,
+      "how_3pt": "parabola",
+      "u_bowl": 0.3037273493992615,
+      "how_bowl": "bowl",
+      "u_sym": 0.3037273493992615,
+      "how_sym": "symmetric",
+      "u_sym_band": [
+        0.3037273493992615,
+        0.3121878366951662
+      ]
+    },
+    {
+      "block": "E7 replicate",
+      "stored_how": "parabola",
+      "k": 0.38333333333333336,
+      "u_stored": 0.31223252668876267,
+      "u_3pt": 0.31223252668876267,
+      "how_3pt": "parabola",
+      "u_bowl": 0.3038141954029858,
+      "how_bowl": "bowl",
+      "u_sym": 0.3038141954029858,
+      "how_sym": "symmetric",
+      "u_sym_band": [
+        0.3038141954029858,
+        0.31223252668876295
+      ]
+    },
+    {
+      "block": "E7 replicate",
+      "stored_how": "parabola",
+      "k": 0.38333333333333336,
+      "u_stored": 0.30502209803793884,
+      "u_3pt": 0.30502209803793884,
+      "how_3pt": "parabola",
+      "u_bowl": 0.3031928948514474,
+      "how_bowl": "bowl",
+      "u_sym": 0.3031928948514474,
+      "how_sym": "symmetric",
+      "u_sym_band": [
+        0.3031928948514474,
+        0.30502209803793934
+      ]
+    },
+    {
+      "block": "E7 replicate",
+      "stored_how": "parabola",
+      "k": 0.38333333333333336,
+      "u_stored": 0.3121607213053101,
+      "u_3pt": 0.3121607213053101,
+      "how_3pt": "parabola",
+      "u_bowl": 0.303669422112026,
+      "how_bowl": "bowl",
+      "u_sym": 0.303669422112026,
+      "how_sym": "symmetric",
+      "u_sym_band": [
+        0.303669422112026,
+        0.31216072130531014
+      ]
+    },
+    {
+      "block": "E7 replicate",
+      "stored_how": "parabola",
+      "k": 0.38333333333333336,
+      "u_stored": 0.30250703562482584,
+      "u_3pt": 0.30250703562482584,
+      "how_3pt": "parabola",
+      "u_bowl": 0.2979249497065903,
+      "how_bowl": "bowl",
+      "u_sym": 0.2979249497065903,
+      "how_sym": "symmetric",
+      "u_sym_band": [
+        0.2979249497065903,
+        0.3025070356248263
+      ]
+    },
+    {
+      "block": "E8 freq_iso t=.10",
+      "stored_how": "parabola",
+      "k": 0.21666666666666667,
+      "u_stored": 0.3018334065253302,
+      "u_3pt": 0.3018334065253302,
+      "how_3pt": "parabola",
+      "u_bowl": 0.2768561444979706,
+      "how_bowl": "bowl",
+      "u_sym": 0.2892305579519977,
+      "how_sym": "symmetric",
+      "u_sym_band": [
+        0.2826655368244296,
+        0.30183340652533214
+      ]
+    },
+    {
+      "block": "E8 freq_iso t=.10",
+      "stored_how": "parabola",
+      "k": 0.25833333333333336,
+      "u_stored": 0.29426735963775064,
+      "u_3pt": 0.2942673596377507,
+      "how_3pt": "parabola",
+      "u_bowl": 0.27644180564674403,
+      "how_bowl": "bowl",
+      "u_sym": 0.2906281992921112,
+      "how_sym": "symmetric",
+      "u_sym_band": [
+        0.2792312642843232,
+        0.29426735963775547
+      ]
+    },
+    {
+      "block": "E8 freq_iso t=.10",
+      "stored_how": "parabola",
+      "k": 0.3416666666666667,
+      "u_stored": 0.2817202560620792,
+      "u_3pt": 0.2817202560620792,
+      "how_3pt": "parabola",
+      "u_bowl": 0.2703449142973184,
+      "how_bowl": "bowl",
+      "u_sym": 0.2833085059479762,
+      "how_sym": "symmetric",
+      "u_sym_band": [
+        0.26895512294730256,
+        0.2833085059479762
+      ]
+    },
+    {
+      "block": "E8 freq_iso t=.10",
+      "stored_how": "parabola",
+      "k": 0.4250025000250003,
+      "u_stored": 0.28617855523511027,
+      "u_3pt": 0.28617855523511027,
+      "how_3pt": "parabola",
+      "u_bowl": 0.27622299703206843,
+      "how_bowl": "bowl",
+      "u_sym": 0.28038616434953817,
+      "how_sym": "symmetric",
+      "u_sym_band": [
+        0.28038616434953817,
+        0.2861785552351155
+      ]
+    },
+    {
+      "block": "E8 freq_iso t=.10",
+      "stored_how": "parabola",
+      "k": 0.5083333333333334,
+      "u_stored": 0.27143583791055537,
+      "u_3pt": 0.27143583791055537,
+      "how_3pt": "parabola",
+      "u_bowl": 0.26883154135223597,
+      "how_bowl": "bowl",
+      "u_sym": 0.2639185399846494,
+      "how_sym": "symmetric",
+      "u_sym_band": [
+        0.2639185399846494,
+        0.2714358379105607
+      ]
+    },
+    {
+      "block": "E8 freq_iso t=.10",
+      "stored_how": "parabola",
+      "k": 0.5916666666666667,
+      "u_stored": 0.30336248189071396,
+      "u_3pt": 0.30336248189071396,
+      "how_3pt": "parabola",
+      "u_bowl": 0.26699558493473896,
+      "how_bowl": "bowl",
+      "u_sym": 0.2654045545642864,
+      "how_sym": "symmetric",
+      "u_sym_band": [
+        0.2654045545642864,
+        0.30336248189071624
+      ]
+    },
+    {
+      "block": "E11a freq_iso t=.05",
+      "stored_how": "parabola",
+      "k": 0.13333333333333333,
+      "u_stored": 0.3336029293483481,
+      "u_3pt": 0.3336029293483481,
+      "how_3pt": "parabola",
+      "u_bowl": 0.2819566330251941,
+      "how_bowl": "bowl",
+      "u_sym": 0.3225615895176916,
+      "how_sym": "symmetric",
+      "u_sym_band": [
+        0.2801772030339937,
+        0.3336029293483495
+      ]
+    },
+    {
+      "block": "E11a freq_iso t=.05",
+      "stored_how": "parabola",
+      "k": 0.17500000000000004,
+      "u_stored": 0.27811169388293683,
+      "u_3pt": 0.27811169388293683,
+      "how_3pt": "parabola",
+      "u_bowl": 0.27081899813630145,
+      "how_bowl": "bowl",
+      "u_sym": 0.2849331813541332,
+      "how_sym": "symmetric",
+      "u_sym_band": [
+        0.269972395103809,
+        0.2849331813541332
+      ]
+    },
+    {
+      "block": "E11a freq_iso t=.05",
+      "stored_how": "parabola",
+      "k": 0.2583333333333334,
+      "u_stored": 0.2811226144525323,
+      "u_3pt": 0.2811226144525323,
+      "how_3pt": "parabola",
+      "u_bowl": 0.24339235125423805,
+      "how_bowl": "bowl",
+      "u_sym": 0.26652013447163353,
+      "how_sym": "symmetric",
+      "u_sym_band": [
+        0.26110885348879237,
+        0.2811226144525374
+      ]
+    },
+    {
+      "block": "E11a freq_iso t=.05",
+      "stored_how": "parabola",
+      "k": 0.34166916669166697,
+      "u_stored": 0.28266125153021304,
+      "u_3pt": 0.28266125153021304,
+      "how_3pt": "parabola",
+      "u_bowl": 0.2687936265674279,
+      "how_bowl": "bowl",
+      "u_sym": 0.27165252081130614,
+      "how_sym": "symmetric",
+      "u_sym_band": [
+        0.2629315369098776,
+        0.28266125153021826
+      ]
+    },
+    {
+      "block": "E11a freq_iso t=.05",
+      "stored_how": "parabola",
+      "k": 0.4250000000000001,
+      "u_stored": 0.2849880599832451,
+      "u_3pt": 0.2849880599832451,
+      "how_3pt": "parabola",
+      "u_bowl": 0.25880332956321717,
+      "how_bowl": "bowl",
+      "u_sym": 0.280396885267309,
+      "how_sym": "symmetric",
+      "u_sym_band": [
+        0.2679424465968755,
+        0.2849880599832495
+      ]
+    },
+    {
+      "block": "E11a freq_iso t=.05",
+      "stored_how": "parabola",
+      "k": 0.5083333333333333,
+      "u_stored": 0.3427525626997436,
+      "u_3pt": 0.3427525626997436,
+      "how_3pt": "parabola",
+      "u_bowl": 0.2781730072425103,
+      "how_bowl": "bowl",
+      "u_sym": 0.31671844763478163,
+      "how_sym": "symmetric",
+      "u_sym_band": [
+        0.2970547144330449,
+        0.34275256269974474
+      ]
+    },
+    {
+      "block": "E11b freq_iso t=.20",
+      "stored_how": "parabola",
+      "k": 0.38333333333333336,
+      "u_stored": 0.3048854856138389,
+      "u_3pt": 0.3048854856138389,
+      "how_3pt": "parabola",
+      "u_bowl": 0.28830308202922006,
+      "how_bowl": "bowl",
+      "u_sym": 0.30168188073892743,
+      "how_sym": "symmetric",
+      "u_sym_band": [
+        0.2944881022241537,
+        0.30488548561384093
+      ]
+    },
+    {
+      "block": "E11b freq_iso t=.20",
+      "stored_how": "parabola",
+      "k": 0.425,
+      "u_stored": 0.31047312028114393,
+      "u_3pt": 0.31047312028114393,
+      "how_3pt": "parabola",
+      "u_bowl": 0.2870562754027167,
+      "how_bowl": "bowl",
+      "u_sym": 0.3082697029913579,
+      "how_sym": "symmetric",
+      "u_sym_band": [
+        0.2953262568247211,
+        0.3104731202811461
+      ]
+    },
+    {
+      "block": "E11b freq_iso t=.20",
+      "stored_how": "parabola",
+      "k": 0.5083333333333334,
+      "u_stored": 0.30624411132416834,
+      "u_3pt": 0.30624411132416834,
+      "how_3pt": "parabola",
+      "u_bowl": 0.2923091969911274,
+      "how_bowl": "bowl",
+      "u_sym": 0.30507672839751315,
+      "how_sym": "symmetric",
+      "u_sym_band": [
+        0.30087981489373866,
+        0.3062441113241709
+      ]
+    },
+    {
+      "block": "E11b freq_iso t=.20",
+      "stored_how": "parabola",
+      "k": 0.591669166691667,
+      "u_stored": 0.288357308443719,
+      "u_3pt": 0.288357308443719,
+      "how_3pt": "parabola",
+      "u_bowl": 0.27813985550344467,
+      "how_bowl": "bowl",
+      "u_sym": 0.29242818862946934,
+      "how_sym": "symmetric",
+      "u_sym_band": [
+        0.2848499270945594,
+        0.29242818862946934
+      ]
+    },
+    {
+      "block": "E11b freq_iso t=.20",
+      "stored_how": "parabola",
+      "k": 0.675,
+      "u_stored": 0.2761612813123054,
+      "u_3pt": 0.2761612813123054,
+      "how_3pt": "parabola",
+      "u_bowl": 0.27633710217640806,
+      "how_bowl": "bowl",
+      "u_sym": 0.28882457900915404,
+      "how_sym": "symmetric",
+      "u_sym_band": [
+        0.27616128131231055,
+        0.28882457900915404
+      ]
+    },
+    {
+      "block": "E11b freq_iso t=.20",
+      "stored_how": "parabola",
+      "k": 0.7583333333333334,
+      "u_stored": 0.2987667233990326,
+      "u_3pt": 0.2987667233990326,
+      "how_3pt": "parabola",
+      "u_bowl": 0.2622285808452167,
+      "how_bowl": "bowl",
+      "u_sym": 0.2770864774241247,
+      "how_sym": "symmetric",
+      "u_sym_band": [
+        0.26586431594267423,
+        0.29876672339903837
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+ "rows": 225,
+ "rows_no_track": 0,
+ "proved": 1609269,
+ "proved_area": 0.6593366074218142,
+ "failed": 167826,
+ "failed_area": 0.000163892578124982,
+ "fold_lower": 0,
+ "fold_unchecked": 8,
+ "outside": 3715,
+ "P_min": -0.9999999342990982,
+ "P_max": 0.9999956852287946,
+ "failed_rel_bins": [
+  162014,
+  5812,
+  0,
+  0,
+  0
+ ],
+ "u_range": [
+  0.05,
+  0.5
+ ],
+ "du": 0.002,
+ "dq": 0.002,
+ "max_depth": 12,
+ "checkpoint": "d120d_rows_n5a_n5_2026-09-14.jsonl"
+}

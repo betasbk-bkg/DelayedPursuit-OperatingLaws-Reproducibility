@@ -1,0 +1,21 @@
+{
+  "dataset": "nav2_sweep_tau_2026-08-29.json (PRELIMINARY)",
+  "s_tau_noise_mean": 0.9736816432514668,
+  "s_tau_noise_sd": 0.013336789027160142,
+  "s_tau_noise_ci": [
+    0.9489664645717354,
+    0.9995463549588481
+  ],
+  "n_rows": 4,
+  "n_points": 36,
+  "s_tau": 0.9712838720579493,
+  "c_ms": 31.043155409753677,
+  "rms_pct": 3.4678110391826977,
+  "profile": [
+    0.9600000000000002,
+    0.9900000000000002
+  ],
+  "H1_inside": false,
+  "H2_inside": false,
+  "verdict": "excludes both"
+}

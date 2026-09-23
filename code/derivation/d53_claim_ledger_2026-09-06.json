@@ -1,0 +1,92 @@
+[
+  {
+    "grade": "ESTABLISHED",
+    "claim": "Theorem 1: v* proportional to L",
+    "detail": "slope 0.9988 (r2 0.9997), isolation-corrected",
+    "source": "d46"
+  },
+  {
+    "grade": "ESTABLISHED",
+    "claim": "null controls: no harness knob moves u*",
+    "detail": "worst knob costmap_size at 0.76x the spread of changing nothing (reference 3.15%)",
+    "source": "d47 + E7"
+  },
+  {
+    "grade": "ESTABLISHED",
+    "claim": "row-to-row reproducibility of u*",
+    "detail": "sd 1.52%, range 3.15%, 5 identical rows",
+    "source": "E7"
+  },
+  {
+    "grade": "ESTABLISHED",
+    "claim": "Theorem 2 T_ctrl/2 coefficient is NOT 1",
+    "detail": "s = 1.0814, profile [1.020, 1.160], 95% [1.048, 1.131], LOO sd 0.0119",
+    "source": "E8 + d48"
+  },
+  {
+    "grade": "ESTABLISHED",
+    "claim": "Theorem 2's own truncation is part of the excess",
+    "detail": "second moment predicts s = 1.0283 of the measured 1.0814",
+    "source": "d51"
+  },
+  {
+    "grade": "ESTABLISHED",
+    "claim": "blast radius of the coefficient error",
+    "detail": "predicted v* moves 1.6%-5.7% across the swept range",
+    "source": "d51"
+  },
+  {
+    "grade": "ESTABLISHED",
+    "claim": "the cos law does NOT transfer to a curvature-command plant",
+    "detail": "u* varies 18.7% over alpha = 30-120 deg where 0.5cos(a/2) would require 58.8%  (5 rows, 45 points)",
+    "source": "E5"
+  },
+  {
+    "grade": "ESTABLISHED",
+    "claim": "u* is a derived pure number, confirmed on third-party code",
+    "detail": "derived argmin J(u) = 0.306 (d38); measured 0.2515-0.3064 across corner angles, i.e. +-3.9% on the mean",
+    "source": "d38 + E5"
+  },
+  {
+    "grade": "ESTABLISHED",
+    "claim": "by-product: RMSE at the optimum scales as L^1.5",
+    "detail": "log-log slope 1.5109 (r2 1.0000) against a predicted 1.500",
+    "source": "E4"
+  },
+  {
+    "grade": "WEAK",
+    "claim": "Theorem 2 T_sim/2 coefficient",
+    "detail": "s = 1.0424 but profile [0.840, 1.320] and LOO sd 0.3094 -- one row carries it",
+    "source": "E3 + d48"
+  },
+  {
+    "grade": "WEAK",
+    "claim": "coefficient on tau_inject",
+    "detail": "s_tau = 0.9713, 95% [0.9490, 0.9995], but on the PRELIMINARY tau sweep",
+    "source": "d50"
+  },
+  {
+    "grade": "HYPOTHESIS",
+    "claim": "what the residual ~5% of the coefficient is",
+    "detail": "H1 extra delay proportional to T_ctrl vs H2 multiplicative error in J(u); discriminator is c(tau_inject), 14 sigma; E11 running",
+    "source": "E11"
+  },
+  {
+    "grade": "HYPOTHESIS",
+    "claim": "partial corner in the window drives the noise",
+    "detail": "window spans 2.225 laps; correlation with run length only weak, one counterexample; dual-window logging added, E7 re-run decides",
+    "source": "d52"
+  },
+  {
+    "grade": "HYPOTHESIS",
+    "claim": "alpha = 120 deg has no interior minimum",
+    "detail": "candidate cause is corner interaction (largest turn angle at the same seg/L); E9 re-runs it at side 10 m up to u = 0.50",
+    "source": "E9"
+  },
+  {
+    "grade": "OPEN",
+    "claim": "E8 fit residual is far above the tsim block",
+    "detail": "5.16% vs 2.39% -- corner interaction is not the only unmodelled effect, and no test is designed",
+    "source": "none"
+  }
+]

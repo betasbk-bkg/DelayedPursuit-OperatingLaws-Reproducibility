@@ -1,0 +1,1002 @@
+[
+ {
+  "u": 0.1,
+  "n": 0,
+  "exists": true,
+  "interrupted": false,
+  "birth": null,
+  "birth_by": null,
+  "death": 1.732539682545208,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.1,
+  "n": 1,
+  "exists": true,
+  "interrupted": false,
+  "birth": 1.6022935758947585,
+  "birth_by": "short_exc",
+  "death": 2.188111866236946,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.1,
+  "n": 2,
+  "exists": true,
+  "interrupted": false,
+  "birth": 2.0447987878555485,
+  "birth_by": "short_exc",
+  "death": 2.589865357272243,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.1,
+  "n": 3,
+  "exists": true,
+  "interrupted": false,
+  "birth": 2.4400429986253207,
+  "birth_by": "short_exc",
+  "death": 2.9657299420907353,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.1,
+  "n": 4,
+  "exists": true,
+  "interrupted": false,
+  "birth": 2.806589313111157,
+  "birth_by": "short_exc",
+  "death": 3.32604977528342,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.1,
+  "n": 5,
+  "exists": true,
+  "interrupted": false,
+  "birth": 3.160924788528087,
+  "birth_by": "short_exc",
+  "death": 3.675929607291339,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.15,
+  "n": 0,
+  "exists": true,
+  "interrupted": false,
+  "birth": null,
+  "birth_by": null,
+  "death": 1.9252180232608733,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.15,
+  "n": 1,
+  "exists": true,
+  "interrupted": false,
+  "birth": 1.7184981127214902,
+  "birth_by": "short_exc",
+  "death": 2.543202164242957,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.15,
+  "n": 2,
+  "exists": true,
+  "interrupted": false,
+  "birth": 2.31399682394394,
+  "birth_by": "short_exc",
+  "death": 3.0994152594377904,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.15,
+  "n": 3,
+  "exists": true,
+  "interrupted": false,
+  "birth": 2.854715686254151,
+  "birth_by": "short_exc",
+  "death": 3.6266984790405172,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.15,
+  "n": 4,
+  "exists": true,
+  "interrupted": false,
+  "birth": 3.3685560894226763,
+  "birth_by": "short_exc",
+  "death": 4.136980312038598,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.15,
+  "n": 5,
+  "exists": true,
+  "interrupted": false,
+  "birth": 3.873193191229163,
+  "birth_by": "short_exc",
+  "death": 4.636049732270128,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.2,
+  "n": 0,
+  "exists": true,
+  "interrupted": false,
+  "birth": null,
+  "birth_by": null,
+  "death": 2.0945799458041745,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.2,
+  "n": 1,
+  "exists": true,
+  "interrupted": false,
+  "birth": 1.8062257740236298,
+  "birth_by": "short_exc",
+  "death": 2.8685228579004876,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.2,
+  "n": 2,
+  "exists": true,
+  "interrupted": false,
+  "birth": 2.5455723523949874,
+  "birth_by": "short_exc",
+  "death": 3.575494988271319,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.2,
+  "n": 3,
+  "exists": true,
+  "interrupted": false,
+  "birth": 3.2324876295106666,
+  "birth_by": "short_exc",
+  "death": 4.251844468739269,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.2,
+  "n": 4,
+  "exists": true,
+  "interrupted": false,
+  "birth": 3.8888129862189484,
+  "birth_by": "short_exc",
+  "death": 4.910526406961692,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.2,
+  "n": 5,
+  "exists": true,
+  "interrupted": false,
+  "birth": 4.535517549156651,
+  "birth_by": "short_exc",
+  "death": 5.557731132952216,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.25,
+  "n": 0,
+  "exists": true,
+  "interrupted": false,
+  "birth": null,
+  "birth_by": null,
+  "death": 2.2503205128249752,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.25,
+  "n": 1,
+  "exists": true,
+  "interrupted": false,
+  "birth": 1.8749999993571436,
+  "birth_by": "short_exc",
+  "death": 3.1764978879713293,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.25,
+  "n": 2,
+  "exists": true,
+  "interrupted": false,
+  "birth": 2.7535876400152524,
+  "birth_by": "short_exc",
+  "death": 4.032335593450701,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.25,
+  "n": 3,
+  "exists": true,
+  "interrupted": false,
+  "birth": 3.579035237759374,
+  "birth_by": "short_exc",
+  "death": 4.856688661337069,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.25,
+  "n": 4,
+  "exists": true,
+  "interrupted": false,
+  "birth": 4.380884002418096,
+  "birth_by": "short_exc",
+  "death": 5.663163652514108,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.25,
+  "n": 5,
+  "exists": true,
+  "interrupted": false,
+  "birth": 5.169265946258913,
+  "birth_by": "short_exc",
+  "death": 6.458171245298165,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.3,
+  "n": 0,
+  "exists": true,
+  "interrupted": false,
+  "birth": null,
+  "birth_by": null,
+  "death": 2.3954887218088725,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.3,
+  "n": 1,
+  "exists": true,
+  "interrupted": false,
+  "birth": 1.9287087805388716,
+  "birth_by": "short_exc",
+  "death": 3.4715690642174066,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.3,
+  "n": 2,
+  "exists": true,
+  "interrupted": false,
+  "birth": 2.9437639483250604,
+  "birth_by": "short_exc",
+  "death": 4.475206949899484,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.3,
+  "n": 3,
+  "exists": true,
+  "interrupted": false,
+  "birth": 3.910523108559615,
+  "birth_by": "short_exc",
+  "death": 5.44704276120723,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.3,
+  "n": 4,
+  "exists": true,
+  "interrupted": false,
+  "birth": 4.856403590321993,
+  "birth_by": "short_exc",
+  "death": 6.401072004376238,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.3,
+  "n": 5,
+  "exists": true,
+  "interrupted": false,
+  "birth": 5.78579432043593,
+  "birth_by": "short_exc",
+  "death": 7.343803932005548,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.35,
+  "n": 0,
+  "exists": true,
+  "interrupted": false,
+  "birth": null,
+  "birth_by": null,
+  "death": 2.533230958235234,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.35,
+  "n": 1,
+  "exists": true,
+  "interrupted": false,
+  "birth": 1.9698582366639987,
+  "birth_by": "short_exc",
+  "death": 3.7576439827944466,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.35,
+  "n": 2,
+  "exists": true,
+  "interrupted": false,
+  "birth": 3.1190717432730244,
+  "birth_by": "short_exc",
+  "death": 4.908464426506459,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.35,
+  "n": 3,
+  "exists": true,
+  "interrupted": false,
+  "birth": 4.223880350133378,
+  "birth_by": "short_exc",
+  "death": 6.027544299631359,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.35,
+  "n": 4,
+  "exists": true,
+  "interrupted": false,
+  "birth": 5.311968546656773,
+  "birth_by": "short_exc",
+  "death": 7.129071705997851,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.35,
+  "n": 5,
+  "exists": true,
+  "interrupted": false,
+  "birth": 6.387671916904065,
+  "birth_by": "short_exc",
+  "death": null,
+  "death_by": null
+ },
+ {
+  "u": 0.4,
+  "n": 0,
+  "exists": true,
+  "interrupted": false,
+  "birth": null,
+  "birth_by": null,
+  "death": 2.6649758454148316,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.4,
+  "n": 1,
+  "exists": true,
+  "interrupted": false,
+  "birth": 1.9999999997000006,
+  "birth_by": "short_exc",
+  "death": 4.0366273065851015,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.4,
+  "n": 2,
+  "exists": true,
+  "interrupted": false,
+  "birth": 3.2817408136760085,
+  "birth_by": "short_exc",
+  "death": 5.3342652769358025,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.4,
+  "n": 3,
+  "exists": true,
+  "interrupted": false,
+  "birth": 4.525924600422516,
+  "birth_by": "short_exc",
+  "death": 6.600494663368163,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.4,
+  "n": 4,
+  "exists": true,
+  "interrupted": false,
+  "birth": 5.7549156307531435,
+  "birth_by": "short_exc",
+  "death": 7.849546969515858,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.4,
+  "n": 5,
+  "exists": true,
+  "interrupted": false,
+  "birth": 6.9790718433274295,
+  "birth_by": "short_exc",
+  "death": null,
+  "death_by": null
+ },
+ {
+  "u": 0.45,
+  "n": 0,
+  "exists": true,
+  "interrupted": false,
+  "birth": null,
+  "birth_by": null,
+  "death": 2.79196428571843,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.45,
+  "n": 1,
+  "exists": true,
+  "interrupted": false,
+  "birth": 2.0201102879468475,
+  "birth_by": "short_exc",
+  "death": 4.3100775846341675,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.45,
+  "n": 2,
+  "exists": true,
+  "interrupted": false,
+  "birth": 3.4337470826294476,
+  "birth_by": "short_exc",
+  "death": 5.7543289801706505,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.45,
+  "n": 3,
+  "exists": true,
+  "interrupted": false,
+  "birth": 4.818122406932,
+  "birth_by": "short_exc",
+  "death": 7.1676997086853245,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.45,
+  "n": 4,
+  "exists": true,
+  "interrupted": false,
+  "birth": 6.1919796898998785,
+  "birth_by": "short_exc",
+  "death": null,
+  "death_by": null
+ },
+ {
+  "u": 0.45,
+  "n": 5,
+  "exists": true,
+  "interrupted": false,
+  "birth": 7.5551155279886695,
+  "birth_by": "short_exc",
+  "death": null,
+  "death_by": null
+ },
+ {
+  "u": 0.5,
+  "n": 0,
+  "exists": true,
+  "interrupted": false,
+  "birth": null,
+  "birth_by": null,
+  "death": 2.9148809523850963,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.5,
+  "n": 1,
+  "exists": true,
+  "interrupted": false,
+  "birth": 2.0307764062831475,
+  "birth_by": "short_exc",
+  "death": 4.578890174601288,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.5,
+  "n": 2,
+  "exists": true,
+  "interrupted": false,
+  "birth": 3.575302760105472,
+  "birth_by": "short_exc",
+  "death": 6.169647099208942,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.5,
+  "n": 3,
+  "exists": true,
+  "interrupted": false,
+  "birth": 5.098503935835844,
+  "birth_by": "short_exc",
+  "death": 7.730195943547301,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.5,
+  "n": 4,
+  "exists": true,
+  "interrupted": false,
+  "birth": 6.614737263320869,
+  "birth_by": "short_exc",
+  "death": null,
+  "death_by": null
+ },
+ {
+  "u": 0.5,
+  "n": 5,
+  "exists": false
+ },
+ {
+  "u": 0.55,
+  "n": 0,
+  "exists": true,
+  "interrupted": false,
+  "birth": null,
+  "birth_by": null,
+  "death": 3.0332941176511543,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.55,
+  "n": 1,
+  "exists": true,
+  "interrupted": false,
+  "birth": 2.0322911410668016,
+  "birth_by": "short_exc",
+  "death": 4.842717158325727,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.55,
+  "n": 2,
+  "exists": true,
+  "interrupted": false,
+  "birth": 3.707085338211354,
+  "birth_by": "short_exc",
+  "death": 6.579891267420235,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.55,
+  "n": 3,
+  "exists": true,
+  "interrupted": false,
+  "birth": 5.370764542705795,
+  "birth_by": "short_exc",
+  "death": null,
+  "death_by": null
+ },
+ {
+  "u": 0.55,
+  "n": 4,
+  "exists": true,
+  "interrupted": false,
+  "birth": 7.032200428229054,
+  "birth_by": "short_exc",
+  "death": null,
+  "death_by": null
+ },
+ {
+  "u": 0.55,
+  "n": 5,
+  "exists": false
+ },
+ {
+  "u": 0.6,
+  "n": 0,
+  "exists": true,
+  "interrupted": false,
+  "birth": null,
+  "birth_by": null,
+  "death": 3.149417249421306,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.6,
+  "n": 1,
+  "exists": true,
+  "interrupted": false,
+  "birth": 2.024700081603413,
+  "birth_by": "short_exc",
+  "death": 5.103986687188054,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.6,
+  "n": 2,
+  "exists": true,
+  "interrupted": false,
+  "birth": 3.830029569131855,
+  "birth_by": "short_exc",
+  "death": 6.987606395909311,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.6,
+  "n": 3,
+  "exists": true,
+  "interrupted": false,
+  "birth": 5.634686784230641,
+  "birth_by": "short_exc",
+  "death": null,
+  "death_by": null
+ },
+ {
+  "u": 0.6,
+  "n": 4,
+  "exists": true,
+  "interrupted": false,
+  "birth": 7.4392051878659196,
+  "birth_by": "short_exc",
+  "death": null,
+  "death_by": null
+ },
+ {
+  "u": 0.6,
+  "n": 5,
+  "exists": false
+ },
+ {
+  "u": 0.65,
+  "n": 0,
+  "exists": true,
+  "interrupted": false,
+  "birth": null,
+  "birth_by": null,
+  "death": 3.2628787878828445,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.65,
+  "n": 1,
+  "exists": true,
+  "interrupted": false,
+  "birth": 2.007558170446129,
+  "birth_by": "short_exc",
+  "death": 5.362367199198086,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.65,
+  "n": 2,
+  "exists": true,
+  "interrupted": false,
+  "birth": 3.943115343787768,
+  "birth_by": "short_exc",
+  "death": 7.392460146297428,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.65,
+  "n": 3,
+  "exists": true,
+  "interrupted": false,
+  "birth": 5.890412279006572,
+  "birth_by": "short_exc",
+  "death": null,
+  "death_by": null
+ },
+ {
+  "u": 0.65,
+  "n": 4,
+  "exists": true,
+  "interrupted": false,
+  "birth": 7.839111957583545,
+  "birth_by": "short_exc",
+  "death": null,
+  "death_by": null
+ },
+ {
+  "u": 0.65,
+  "n": 5,
+  "exists": false
+ },
+ {
+  "u": 0.7,
+  "n": 0,
+  "exists": true,
+  "interrupted": false,
+  "birth": null,
+  "birth_by": null,
+  "death": 3.373379629633658,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.7,
+  "n": 1,
+  "exists": true,
+  "interrupted": false,
+  "birth": 1.9802308688180559,
+  "birth_by": "short_exc",
+  "death": 5.617570740042422,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.7,
+  "n": 2,
+  "exists": true,
+  "interrupted": false,
+  "birth": 4.047288608465788,
+  "birth_by": "short_exc",
+  "death": 7.794153908695873,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.7,
+  "n": 3,
+  "exists": true,
+  "interrupted": false,
+  "birth": 6.136998005794671,
+  "birth_by": "short_exc",
+  "death": null,
+  "death_by": null
+ },
+ {
+  "u": 0.7,
+  "n": 4,
+  "exists": false
+ },
+ {
+  "u": 0.7,
+  "n": 5,
+  "exists": false
+ },
+ {
+  "u": 0.75,
+  "n": 0,
+  "exists": true,
+  "interrupted": false,
+  "birth": null,
+  "birth_by": null,
+  "death": 3.4826388888929176,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.75,
+  "n": 1,
+  "exists": true,
+  "interrupted": false,
+  "birth": 1.9416761893808334,
+  "birth_by": "short_exc",
+  "death": 5.871488776567948,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.75,
+  "n": 2,
+  "exists": true,
+  "interrupted": false,
+  "birth": 4.140546400822613,
+  "birth_by": "short_exc",
+  "death": null,
+  "death_by": null
+ },
+ {
+  "u": 0.75,
+  "n": 3,
+  "exists": true,
+  "interrupted": false,
+  "birth": 6.374382896368742,
+  "birth_by": "short_exc",
+  "death": null,
+  "death_by": null
+ },
+ {
+  "u": 0.75,
+  "n": 4,
+  "exists": false
+ },
+ {
+  "u": 0.75,
+  "n": 5,
+  "exists": false
+ },
+ {
+  "u": 0.8,
+  "n": 0,
+  "exists": true,
+  "interrupted": false,
+  "birth": null,
+  "birth_by": null,
+  "death": 3.588940092169909,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.8,
+  "n": 1,
+  "exists": true,
+  "interrupted": false,
+  "birth": 1.8901056213949397,
+  "birth_by": "short_exc",
+  "death": 6.122271621455992,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.8,
+  "n": 2,
+  "exists": true,
+  "interrupted": false,
+  "birth": 4.2226927232982305,
+  "birth_by": "short_exc",
+  "death": null,
+  "death_by": null
+ },
+ {
+  "u": 0.8,
+  "n": 3,
+  "exists": true,
+  "interrupted": false,
+  "birth": 6.602444840187279,
+  "birth_by": "short_exc",
+  "death": null,
+  "death_by": null
+ },
+ {
+  "u": 0.8,
+  "n": 4,
+  "exists": false
+ },
+ {
+  "u": 0.8,
+  "n": 5,
+  "exists": false
+ },
+ {
+  "u": 0.85,
+  "n": 0,
+  "exists": true,
+  "interrupted": false,
+  "birth": null,
+  "birth_by": null,
+  "death": 3.694297235027051,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.85,
+  "n": 1,
+  "exists": true,
+  "interrupted": false,
+  "birth": 1.8283341159283664,
+  "birth_by": "end_window",
+  "death": 6.37213288269826,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.85,
+  "n": 2,
+  "exists": true,
+  "interrupted": false,
+  "birth": 4.291093455336074,
+  "birth_by": "short_exc",
+  "death": null,
+  "death_by": null
+ },
+ {
+  "u": 0.85,
+  "n": 3,
+  "exists": true,
+  "interrupted": false,
+  "birth": 6.818833850059351,
+  "birth_by": "short_exc",
+  "death": null,
+  "death_by": null
+ },
+ {
+  "u": 0.85,
+  "n": 4,
+  "exists": false
+ },
+ {
+  "u": 0.85,
+  "n": 5,
+  "exists": false
+ },
+ {
+  "u": 0.9,
+  "n": 0,
+  "exists": true,
+  "interrupted": false,
+  "birth": null,
+  "birth_by": null,
+  "death": 3.7977011494292885,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.9,
+  "n": 1,
+  "exists": true,
+  "interrupted": false,
+  "birth": 1.8253586272073579,
+  "birth_by": "end_window",
+  "death": 6.61997640021862,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.9,
+  "n": 2,
+  "exists": true,
+  "interrupted": false,
+  "birth": 4.341379609422031,
+  "birth_by": "short_exc",
+  "death": null,
+  "death_by": null
+ },
+ {
+  "u": 0.9,
+  "n": 3,
+  "exists": true,
+  "interrupted": false,
+  "birth": 7.019911174599256,
+  "birth_by": "short_exc",
+  "death": null,
+  "death_by": null
+ },
+ {
+  "u": 0.9,
+  "n": 4,
+  "exists": false
+ },
+ {
+  "u": 0.9,
+  "n": 5,
+  "exists": false
+ },
+ {
+  "u": 0.95,
+  "n": 0,
+  "exists": true,
+  "interrupted": false,
+  "birth": null,
+  "birth_by": null,
+  "death": 3.8994252873603235,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.95,
+  "n": 1,
+  "exists": true,
+  "interrupted": false,
+  "birth": 1.874061137168995,
+  "birth_by": "end_window",
+  "death": 6.866105837291807,
+  "death_by": "grazing"
+ },
+ {
+  "u": 0.95,
+  "n": 2,
+  "exists": true,
+  "interrupted": false,
+  "birth": 4.404008071376752,
+  "birth_by": "end_window",
+  "death": null,
+  "death_by": null
+ },
+ {
+  "u": 0.95,
+  "n": 3,
+  "exists": true,
+  "interrupted": false,
+  "birth": 7.197761675835061,
+  "birth_by": "end_window",
+  "death": null,
+  "death_by": null
+ },
+ {
+  "u": 0.95,
+  "n": 4,
+  "exists": false
+ },
+ {
+  "u": 0.95,
+  "n": 5,
+  "exists": false
+ }
+]

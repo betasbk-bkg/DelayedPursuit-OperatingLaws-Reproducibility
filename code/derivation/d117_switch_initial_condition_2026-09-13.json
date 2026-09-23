@@ -1,0 +1,1145 @@
+{
+ "a": [
+  {
+   "u": 0.3,
+   "q": 1.7787087810503355,
+   "in_band": false,
+   "flow_word": "+",
+   "first_z": 0.5213353280825149,
+   "map_word": "+",
+   "match": true
+  },
+  {
+   "u": 0.3,
+   "q": 1.8287087810503355,
+   "in_band": false,
+   "flow_word": "+",
+   "first_z": 0.5221887884425259,
+   "map_word": "+",
+   "match": true
+  },
+  {
+   "u": 0.3,
+   "q": 1.8787087810503356,
+   "in_band": false,
+   "flow_word": "+",
+   "first_z": 0.5231064693931295,
+   "map_word": "+",
+   "match": true
+  },
+  {
+   "u": 0.3,
+   "q": 1.9287087810503356,
+   "in_band": true,
+   "flow_word": "+",
+   "first_z": 0.5240641071210191,
+   "map_word": "+",
+   "match": true
+  },
+  {
+   "u": 0.3,
+   "q": 1.9787087810503357,
+   "in_band": true,
+   "flow_word": "+",
+   "first_z": 0.5270752955989274,
+   "map_word": "+",
+   "match": true
+  },
+  {
+   "u": 0.3,
+   "q": 2.0287087810503355,
+   "in_band": true,
+   "flow_word": "+",
+   "first_z": 0.5281566177368986,
+   "map_word": "+",
+   "match": true
+  },
+  {
+   "u": 0.3,
+   "q": 2.0787087810503357,
+   "in_band": true,
+   "flow_word": "+",
+   "first_z": 0.5292849581741073,
+   "map_word": "+",
+   "match": true
+  },
+  {
+   "u": 0.3,
+   "q": 2.128708781050336,
+   "in_band": true,
+   "flow_word": "+",
+   "first_z": 0.5304357797685637,
+   "map_word": "+",
+   "match": true
+  },
+  {
+   "u": 0.3,
+   "q": 2.178708781050336,
+   "in_band": true,
+   "flow_word": "-++",
+   "first_z": 0.5336260744108718,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.3,
+   "q": 2.2287087810503357,
+   "in_band": true,
+   "flow_word": "-++",
+   "first_z": 0.5348757667774953,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.3,
+   "q": 2.278708781050336,
+   "in_band": true,
+   "flow_word": "-++",
+   "first_z": 0.5361382237370095,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.3,
+   "q": 2.328708781050336,
+   "in_band": true,
+   "flow_word": "-++",
+   "first_z": 0.5374560349345279,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.3,
+   "q": 2.378708781050336,
+   "in_band": true,
+   "flow_word": "-++",
+   "first_z": 0.538781258277344,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.3,
+   "q": 2.428708781050336,
+   "in_band": false,
+   "flow_word": "-++",
+   "first_z": 0.5401587921023624,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.3,
+   "q": 2.478708781050336,
+   "in_band": false,
+   "flow_word": "-++",
+   "first_z": 0.5415390796997742,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.3,
+   "q": 2.5287087810503364,
+   "in_band": false,
+   "flow_word": "-++",
+   "first_z": 0.5429692542700719,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.5,
+   "q": 1.8807764064044155,
+   "in_band": false,
+   "flow_word": "+",
+   "first_z": 0.48526733399017474,
+   "map_word": "+",
+   "match": true
+  },
+  {
+   "u": 0.5,
+   "q": 1.9307764064044155,
+   "in_band": false,
+   "flow_word": "+",
+   "first_z": 0.48731660669817217,
+   "map_word": "+",
+   "match": true
+  },
+  {
+   "u": 0.5,
+   "q": 1.9807764064044155,
+   "in_band": false,
+   "flow_word": "+",
+   "first_z": 0.48936584744222367,
+   "map_word": "+",
+   "match": true
+  },
+  {
+   "u": 0.5,
+   "q": 2.0307764064044154,
+   "in_band": false,
+   "flow_word": "+",
+   "first_z": 0.491435315093114,
+   "map_word": "-++",
+   "match": false
+  },
+  {
+   "u": 0.5,
+   "q": 2.0807764064044156,
+   "in_band": true,
+   "flow_word": "-++",
+   "first_z": 0.49348498246930617,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.5,
+   "q": 2.130776406404416,
+   "in_band": true,
+   "flow_word": "-++",
+   "first_z": 0.4975131448032114,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.5,
+   "q": 2.1807764064044157,
+   "in_band": true,
+   "flow_word": "-++",
+   "first_z": 0.49956224494364887,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.5,
+   "q": 2.2307764064044155,
+   "in_band": true,
+   "flow_word": "-++",
+   "first_z": 0.5016113097759125,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.5,
+   "q": 2.280776406404416,
+   "in_band": true,
+   "flow_word": "-++",
+   "first_z": 0.5036603385756918,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.5,
+   "q": 2.330776406404416,
+   "in_band": true,
+   "flow_word": "-++",
+   "first_z": 0.5057093306202628,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.5,
+   "q": 2.380776406404416,
+   "in_band": true,
+   "flow_word": "-++",
+   "first_z": 0.5077582851884855,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.5,
+   "q": 2.4307764064044157,
+   "in_band": true,
+   "flow_word": "-++",
+   "first_z": 0.5098072015608075,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.5,
+   "q": 2.480776406404416,
+   "in_band": true,
+   "flow_word": "-++",
+   "first_z": 0.5118314364585907,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.5,
+   "q": 2.5307764064044163,
+   "in_band": true,
+   "flow_word": "-++",
+   "first_z": 0.5138797902425863,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.5,
+   "q": 2.580776406404416,
+   "in_band": true,
+   "flow_word": "-++",
+   "first_z": 0.5159281041702041,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.5,
+   "q": 2.630776406404416,
+   "in_band": true,
+   "flow_word": "-++",
+   "first_z": 0.5179763775276379,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.5,
+   "q": 2.680776406404416,
+   "in_band": true,
+   "flow_word": "-++",
+   "first_z": 0.518024972235866,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.5,
+   "q": 2.7307764064044164,
+   "in_band": true,
+   "flow_word": "-++",
+   "first_z": 0.5200731757741475,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.5,
+   "q": 2.7807764064044163,
+   "in_band": true,
+   "flow_word": "-++",
+   "first_z": 0.5221213368480699,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.5,
+   "q": 2.830776406404416,
+   "in_band": true,
+   "flow_word": "-++",
+   "first_z": 0.5241414341210775,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.5,
+   "q": 2.8807764064044163,
+   "in_band": true,
+   "flow_word": "-++",
+   "first_z": 0.5261890275083234,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.5,
+   "q": 2.9307764064044166,
+   "in_band": false,
+   "flow_word": "-++",
+   "first_z": 0.5282365767968917,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.5,
+   "q": 2.9807764064044164,
+   "in_band": false,
+   "flow_word": "-++",
+   "first_z": 0.5302546201994676,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.5,
+   "q": 3.0307764064044163,
+   "in_band": false,
+   "flow_word": "-++",
+   "first_z": 0.5323015999969645,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.71,
+   "q": 1.8244870445521584,
+   "in_band": false,
+   "flow_word": "+",
+   "first_z": 0.43404523829706,
+   "map_word": "+",
+   "match": true
+  },
+  {
+   "u": 0.71,
+   "q": 1.8744870445521584,
+   "in_band": false,
+   "flow_word": "+",
+   "first_z": 0.43730855672413116,
+   "map_word": "+",
+   "match": true
+  },
+  {
+   "u": 0.71,
+   "q": 1.9244870445521585,
+   "in_band": false,
+   "flow_word": "+",
+   "first_z": 0.44249077554613847,
+   "map_word": "+",
+   "match": true
+  },
+  {
+   "u": 0.71,
+   "q": 1.9744870445521585,
+   "in_band": true,
+   "flow_word": "+",
+   "first_z": 0.4456152661940187,
+   "map_word": "+",
+   "match": true
+  },
+  {
+   "u": 0.71,
+   "q": 2.0244870445521586,
+   "in_band": true,
+   "flow_word": "+",
+   "first_z": 0.4487063308053181,
+   "map_word": "+",
+   "match": true
+  },
+  {
+   "u": 0.71,
+   "q": 2.074487044552159,
+   "in_band": true,
+   "flow_word": "+",
+   "first_z": 0.4517486243038602,
+   "map_word": "+",
+   "match": true
+  },
+  {
+   "u": 0.71,
+   "q": 2.1244870445521586,
+   "in_band": true,
+   "flow_word": "+",
+   "first_z": 0.4547244835928783,
+   "map_word": "+",
+   "match": true
+  },
+  {
+   "u": 0.71,
+   "q": 2.1744870445521585,
+   "in_band": true,
+   "flow_word": "+",
+   "first_z": 0.4596570465149652,
+   "map_word": "+",
+   "match": true
+  },
+  {
+   "u": 0.71,
+   "q": 2.2244870445521587,
+   "in_band": true,
+   "flow_word": "+",
+   "first_z": 0.4625496927415521,
+   "map_word": "+",
+   "match": true
+  },
+  {
+   "u": 0.71,
+   "q": 2.274487044552159,
+   "in_band": true,
+   "flow_word": "+",
+   "first_z": 0.46542746450436434,
+   "map_word": "+",
+   "match": true
+  },
+  {
+   "u": 0.71,
+   "q": 2.324487044552159,
+   "in_band": true,
+   "flow_word": "+",
+   "first_z": 0.46824800296508373,
+   "map_word": "+",
+   "match": true
+  },
+  {
+   "u": 0.71,
+   "q": 2.3744870445521586,
+   "in_band": true,
+   "flow_word": "+",
+   "first_z": 0.47103566715747935,
+   "map_word": "+",
+   "match": true
+  },
+  {
+   "u": 0.71,
+   "q": 2.424487044552159,
+   "in_band": true,
+   "flow_word": "+",
+   "first_z": 0.4737924883804704,
+   "map_word": "+",
+   "match": true
+  },
+  {
+   "u": 0.71,
+   "q": 2.474487044552159,
+   "in_band": true,
+   "flow_word": "-++",
+   "first_z": 0.4765449033208571,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.71,
+   "q": 2.524487044552159,
+   "in_band": true,
+   "flow_word": "-++",
+   "first_z": 0.47924597516047646,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.71,
+   "q": 2.574487044552159,
+   "in_band": true,
+   "flow_word": "-++",
+   "first_z": 0.48192137511930416,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.71,
+   "q": 2.624487044552159,
+   "in_band": true,
+   "flow_word": "-++",
+   "first_z": 0.48457256778809027,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.71,
+   "q": 2.6744870445521594,
+   "in_band": true,
+   "flow_word": "-++",
+   "first_z": 0.48720090817628026,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.71,
+   "q": 2.724487044552159,
+   "in_band": true,
+   "flow_word": "-++",
+   "first_z": 0.48980765176723934,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.71,
+   "q": 2.774487044552159,
+   "in_band": true,
+   "flow_word": "-++",
+   "first_z": 0.4923939634862218,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.71,
+   "q": 2.8244870445521593,
+   "in_band": true,
+   "flow_word": "-++",
+   "first_z": 0.4949609257158207,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.71,
+   "q": 2.8744870445521595,
+   "in_band": true,
+   "flow_word": "-++",
+   "first_z": 0.49750954547486964,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.71,
+   "q": 2.9244870445521594,
+   "in_band": true,
+   "flow_word": "-++",
+   "first_z": 0.49804120454068257,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.71,
+   "q": 2.974487044552159,
+   "in_band": true,
+   "flow_word": "-++",
+   "first_z": 0.5005559058235998,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.71,
+   "q": 3.0244870445521594,
+   "in_band": true,
+   "flow_word": "-++",
+   "first_z": 0.5030548950203917,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.71,
+   "q": 3.0744870445521597,
+   "in_band": true,
+   "flow_word": "-++",
+   "first_z": 0.5055389359880722,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.71,
+   "q": 3.1244870445521595,
+   "in_band": true,
+   "flow_word": "-++",
+   "first_z": 0.5060092500785884,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.71,
+   "q": 3.1744870445521594,
+   "in_band": true,
+   "flow_word": "-++",
+   "first_z": 0.5084655105733049,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.71,
+   "q": 3.2244870445521596,
+   "in_band": true,
+   "flow_word": "-++",
+   "first_z": 0.5109088360607491,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.71,
+   "q": 3.27448704455216,
+   "in_band": true,
+   "flow_word": "-++",
+   "first_z": 0.511340372583287,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.71,
+   "q": 3.3244870445521597,
+   "in_band": true,
+   "flow_word": "-++",
+   "first_z": 0.5137595790712434,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.71,
+   "q": 3.3744870445521595,
+   "in_band": true,
+   "flow_word": "-++",
+   "first_z": 0.5161675162829362,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.71,
+   "q": 3.42448704455216,
+   "in_band": false,
+   "flow_word": "-++",
+   "first_z": 0.5165652834660148,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.71,
+   "q": 3.47448704455216,
+   "in_band": false,
+   "flow_word": "-++",
+   "first_z": 0.5189522758924705,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.71,
+   "q": 3.52448704455216,
+   "in_band": false,
+   "flow_word": "-++",
+   "first_z": 0.5212945147273231,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.9,
+   "q": 1.675358627655197,
+   "in_band": false,
+   "flow_word": "+",
+   "first_z": 0.36939499606515014,
+   "map_word": "+",
+   "match": true
+  },
+  {
+   "u": 0.9,
+   "q": 1.725358627655197,
+   "in_band": false,
+   "flow_word": "+",
+   "first_z": 0.37615817279942865,
+   "map_word": "+",
+   "match": true
+  },
+  {
+   "u": 0.9,
+   "q": 1.7753586276551971,
+   "in_band": false,
+   "flow_word": "+",
+   "first_z": 0.38076932401541025,
+   "map_word": "+",
+   "match": true
+  },
+  {
+   "u": 0.9,
+   "q": 1.8253586276551972,
+   "in_band": true,
+   "flow_word": "+",
+   "first_z": 0.3872410262096486,
+   "map_word": "+",
+   "match": true
+  },
+  {
+   "u": 0.9,
+   "q": 1.8753586276551972,
+   "in_band": true,
+   "flow_word": "+",
+   "first_z": 0.39160361688838996,
+   "map_word": "+",
+   "match": true
+  },
+  {
+   "u": 0.9,
+   "q": 1.9253586276551973,
+   "in_band": true,
+   "flow_word": "+",
+   "first_z": 0.39582946903300537,
+   "map_word": "+",
+   "match": true
+  },
+  {
+   "u": 0.9,
+   "q": 1.9753586276551973,
+   "in_band": true,
+   "flow_word": "+",
+   "first_z": 0.40194622439439076,
+   "map_word": "+",
+   "match": true
+  },
+  {
+   "u": 0.9,
+   "q": 2.0253586276551974,
+   "in_band": true,
+   "flow_word": "+",
+   "first_z": 0.40596203822268545,
+   "map_word": "+",
+   "match": true
+  },
+  {
+   "u": 0.9,
+   "q": 2.0753586276551976,
+   "in_band": true,
+   "flow_word": "+",
+   "first_z": 0.41186314042625954,
+   "map_word": "+",
+   "match": true
+  },
+  {
+   "u": 0.9,
+   "q": 2.1253586276551975,
+   "in_band": true,
+   "flow_word": "+",
+   "first_z": 0.4156979764381503,
+   "map_word": "+",
+   "match": true
+  },
+  {
+   "u": 0.9,
+   "q": 2.1753586276551973,
+   "in_band": true,
+   "flow_word": "+",
+   "first_z": 0.41945197822294156,
+   "map_word": "+",
+   "match": true
+  },
+  {
+   "u": 0.9,
+   "q": 2.2253586276551975,
+   "in_band": true,
+   "flow_word": "+",
+   "first_z": 0.42510799574206093,
+   "map_word": "+",
+   "match": true
+  },
+  {
+   "u": 0.9,
+   "q": 2.275358627655198,
+   "in_band": true,
+   "flow_word": "+",
+   "first_z": 0.4267158866526558,
+   "map_word": "+",
+   "match": true
+  },
+  {
+   "u": 0.9,
+   "q": 2.3253586276551976,
+   "in_band": true,
+   "flow_word": "+",
+   "first_z": 0.43223440652356665,
+   "map_word": "+",
+   "match": true
+  },
+  {
+   "u": 0.9,
+   "q": 2.3753586276551975,
+   "in_band": true,
+   "flow_word": "+",
+   "first_z": 0.43571463010659606,
+   "map_word": "+",
+   "match": true
+  },
+  {
+   "u": 0.9,
+   "q": 2.4253586276551977,
+   "in_band": true,
+   "flow_word": "+",
+   "first_z": 0.43911254117051546,
+   "map_word": "+",
+   "match": true
+  },
+  {
+   "u": 0.9,
+   "q": 2.475358627655198,
+   "in_band": true,
+   "flow_word": "+",
+   "first_z": 0.4424805920328889,
+   "map_word": "+",
+   "match": true
+  },
+  {
+   "u": 0.9,
+   "q": 2.525358627655198,
+   "in_band": true,
+   "flow_word": "+",
+   "first_z": 0.44577213565566276,
+   "map_word": "+",
+   "match": true
+  },
+  {
+   "u": 0.9,
+   "q": 2.5753586276551976,
+   "in_band": true,
+   "flow_word": "+",
+   "first_z": 0.44901489375405024,
+   "map_word": "+",
+   "match": true
+  },
+  {
+   "u": 0.9,
+   "q": 2.625358627655198,
+   "in_band": true,
+   "flow_word": "+",
+   "first_z": 0.4522269835838956,
+   "map_word": "+",
+   "match": true
+  },
+  {
+   "u": 0.9,
+   "q": 2.675358627655198,
+   "in_band": true,
+   "flow_word": "+",
+   "first_z": 0.45538023112208276,
+   "map_word": "+",
+   "match": true
+  },
+  {
+   "u": 0.9,
+   "q": 2.725358627655198,
+   "in_band": true,
+   "flow_word": "+",
+   "first_z": 0.45849242068551205,
+   "map_word": "+",
+   "match": true
+  },
+  {
+   "u": 0.9,
+   "q": 2.775358627655198,
+   "in_band": true,
+   "flow_word": "+",
+   "first_z": 0.46156576901696866,
+   "map_word": "+",
+   "match": true
+  },
+  {
+   "u": 0.9,
+   "q": 2.825358627655198,
+   "in_band": true,
+   "flow_word": "-++",
+   "first_z": 0.4646023358865318,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.9,
+   "q": 2.8753586276551983,
+   "in_band": true,
+   "flow_word": "-++",
+   "first_z": 0.4676324681056928,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.9,
+   "q": 2.925358627655198,
+   "in_band": true,
+   "flow_word": "-++",
+   "first_z": 0.4706015695155031,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.9,
+   "q": 2.975358627655198,
+   "in_band": true,
+   "flow_word": "-++",
+   "first_z": 0.4735392560661207,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.9,
+   "q": 3.0253586276551983,
+   "in_band": true,
+   "flow_word": "-++",
+   "first_z": 0.4764470829228985,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.9,
+   "q": 3.0753586276551985,
+   "in_band": true,
+   "flow_word": "-++",
+   "first_z": 0.4773573387705208,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.9,
+   "q": 3.1253586276551983,
+   "in_band": true,
+   "flow_word": "-++",
+   "first_z": 0.4801793870937583,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.9,
+   "q": 3.175358627655198,
+   "in_band": true,
+   "flow_word": "-++",
+   "first_z": 0.4830060100320672,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.9,
+   "q": 3.2253586276551984,
+   "in_band": true,
+   "flow_word": "-++",
+   "first_z": 0.4838403730856735,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.9,
+   "q": 3.2753586276551987,
+   "in_band": true,
+   "flow_word": "-++",
+   "first_z": 0.4866194644822949,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.9,
+   "q": 3.3253586276551985,
+   "in_band": true,
+   "flow_word": "-++",
+   "first_z": 0.489376160435379,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.9,
+   "q": 3.3753586276551983,
+   "in_band": true,
+   "flow_word": "-++",
+   "first_z": 0.492111453707927,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.9,
+   "q": 3.4253586276551986,
+   "in_band": true,
+   "flow_word": "-++",
+   "first_z": 0.4928268877225951,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.9,
+   "q": 3.475358627655199,
+   "in_band": true,
+   "flow_word": "-++",
+   "first_z": 0.49552214395162,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.9,
+   "q": 3.5253586276551987,
+   "in_band": true,
+   "flow_word": "-++",
+   "first_z": 0.4981986443198882,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.9,
+   "q": 3.5753586276551985,
+   "in_band": true,
+   "flow_word": "-++",
+   "first_z": 0.500857173199103,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.9,
+   "q": 3.625358627655199,
+   "in_band": true,
+   "flow_word": "-++",
+   "first_z": 0.501499153470452,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.9,
+   "q": 3.675358627655199,
+   "in_band": true,
+   "flow_word": "-++",
+   "first_z": 0.504123941112389,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.9,
+   "q": 3.725358627655199,
+   "in_band": true,
+   "flow_word": "-++",
+   "first_z": 0.5067328623016019,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.9,
+   "q": 3.7753586276551987,
+   "in_band": true,
+   "flow_word": "-++",
+   "first_z": 0.5073272843152793,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.9,
+   "q": 3.8253586276551994,
+   "in_band": false,
+   "flow_word": "-++",
+   "first_z": 0.5099063430416303,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.9,
+   "q": 3.8753586276551992,
+   "in_band": false,
+   "flow_word": "-++",
+   "first_z": 0.5104721017897406,
+   "map_word": "-++",
+   "match": true
+  },
+  {
+   "u": 0.9,
+   "q": 3.925358627655199,
+   "in_band": false,
+   "flow_word": "-++",
+   "first_z": 0.5130235580526401,
+   "map_word": "-++",
+   "match": true
+  }
+ ],
+ "b": [
+  {
+   "u": 0.3,
+   "q": 1.8287087810503353,
+   "where": "outside band",
+   "words": {
+    "+": 12
+   }
+  },
+  {
+   "u": 0.3,
+   "q": 2.1620769480303337,
+   "where": "inside band",
+   "words": {
+    "-++": 9,
+    "+": 3
+   }
+  },
+  {
+   "u": 0.3,
+   "q": 2.495445115010332,
+   "where": "outside band",
+   "words": {
+    "-++": 12
+   }
+  },
+  {
+   "u": 0.71,
+   "q": 1.8744870445521582,
+   "where": "outside band",
+   "words": {
+    "+": 12
+   }
+  },
+  {
+   "u": 0.71,
+   "q": 2.684858499593715,
+   "where": "inside band",
+   "words": {
+    "-++": 5,
+    "+": 7
+   }
+  },
+  {
+   "u": 0.71,
+   "q": 3.495229954635272,
+   "where": "outside band",
+   "words": {
+    "-++": 12
+   }
+  }
+ ]
+}

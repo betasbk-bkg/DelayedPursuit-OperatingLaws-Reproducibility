@@ -1,0 +1,18 @@
+{
+  "d74_corner_rule_2026-09-08.json": {
+    "v_short": 1.25,
+    "how_short": "narrow-bowl",
+    "v_long": 1.0,
+    "how_long": "narrow-bowl",
+    "shift_pct": 25.0,
+    "mc": 5
+  },
+  "d74_corner_rule_mc5_2026-09-08.json": {
+    "v_short": 1.25,
+    "how_short": "narrow-bowl",
+    "v_long": 1.0,
+    "how_long": "narrow-bowl",
+    "shift_pct": 25.0,
+    "mc": 5
+  }
+}

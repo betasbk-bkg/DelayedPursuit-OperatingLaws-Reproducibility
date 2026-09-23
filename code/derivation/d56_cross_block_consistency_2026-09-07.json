@@ -1,0 +1,266 @@
+{
+  "shared_point_rows": [
+    {
+      "block": "E7 replicate",
+      "file": "nav2_block_replicate_2026-09-06.json",
+      "tag": "rep=0",
+      "u_obs": 0.31218783669516575
+    },
+    {
+      "block": "E7 replicate",
+      "file": "nav2_block_replicate_2026-09-06.json",
+      "tag": "rep=1",
+      "u_obs": 0.31223252668876267
+    },
+    {
+      "block": "E7 replicate",
+      "file": "nav2_block_replicate_2026-09-06.json",
+      "tag": "rep=2",
+      "u_obs": 0.30502209803793884
+    },
+    {
+      "block": "E7 replicate",
+      "file": "nav2_block_replicate_2026-09-06.json",
+      "tag": "rep=3",
+      "u_obs": 0.3121607213053101
+    },
+    {
+      "block": "E7 replicate",
+      "file": "nav2_block_replicate_2026-09-06.json",
+      "tag": "rep=4",
+      "u_obs": 0.30250703562482584
+    },
+    {
+      "block": "E6 nulls",
+      "file": "nav2_block_nulls_2026-09-06.json",
+      "tag": "knob=costmap_size",
+      "u_obs": 0.31166426385824775
+    },
+    {
+      "block": "E6 nulls",
+      "file": "nav2_block_nulls_2026-09-06.json",
+      "tag": "knob=sample_hz",
+      "u_obs": 0.306272247273928
+    },
+    {
+      "block": "E6 nulls",
+      "file": "nav2_block_nulls_2026-09-06.json",
+      "tag": "knob=transform_tolerance",
+      "u_obs": 0.3121922898486715
+    },
+    {
+      "block": "E5 alpha",
+      "file": "nav2_block_alpha_2026-09-06.json",
+      "tag": "n_sides=4",
+      "u_obs": 0.31344163420251764
+    },
+    {
+      "block": "E3 tsim",
+      "file": "nav2_block_tsim_2026-09-05.json",
+      "tag": "update_duration=0.01",
+      "u_obs": 0.3065021536497203
+    },
+    {
+      "block": "E4 lookahead",
+      "file": "nav2_block_lookahead_2026-09-05.json",
+      "tag": "lookahead=0.6",
+      "u_obs": 0.31352057704769914
+    }
+  ],
+  "shared_v": [
+    {
+      "v": 0.4915,
+      "n": 3,
+      "mean": 0.028767327390414987,
+      "sd_pct": 1.1667441144995256,
+      "spread_pct": 2.0563133119996793,
+      "n_blocks": 3
+    },
+    {
+      "v": 0.5734,
+      "n": 3,
+      "mean": 0.026889542981399072,
+      "sd_pct": 0.021969472199066385,
+      "spread_pct": 0.03818020285124361,
+      "n_blocks": 3
+    },
+    {
+      "v": 0.6143,
+      "n": 8,
+      "mean": 0.025700239140434594,
+      "sd_pct": 1.1901016620200169,
+      "spread_pct": 2.5709948378433203,
+      "n_blocks": 2
+    },
+    {
+      "v": 0.6553,
+      "n": 3,
+      "mean": 0.024725652300085957,
+      "sd_pct": 1.2006454193037785,
+      "spread_pct": 2.166186541529143,
+      "n_blocks": 3
+    },
+    {
+      "v": 0.7167,
+      "n": 8,
+      "mean": 0.023522583428721724,
+      "sd_pct": 1.0791717362617568,
+      "spread_pct": 2.1684367035428638,
+      "n_blocks": 2
+    },
+    {
+      "v": 0.7372,
+      "n": 3,
+      "mean": 0.02339516666255063,
+      "sd_pct": 0.1325837965270462,
+      "spread_pct": 0.23104951736194704,
+      "n_blocks": 3
+    },
+    {
+      "v": 0.8191,
+      "n": 11,
+      "mean": 0.02272309878074979,
+      "sd_pct": 0.19440008913653833,
+      "spread_pct": 0.5314957414468043,
+      "n_blocks": 5
+    },
+    {
+      "v": 0.901,
+      "n": 3,
+      "mean": 0.023834401110043018,
+      "sd_pct": 2.790685994912176,
+      "spread_pct": 4.950523509730251,
+      "n_blocks": 3
+    },
+    {
+      "v": 0.9215,
+      "n": 8,
+      "mean": 0.02400010765962104,
+      "sd_pct": 1.026591240623177,
+      "spread_pct": 2.9751507484387405,
+      "n_blocks": 2
+    },
+    {
+      "v": 0.983,
+      "n": 3,
+      "mean": 0.02915827243068514,
+      "sd_pct": 0.030859612912376554,
+      "spread_pct": 0.060504923940648346,
+      "n_blocks": 3
+    },
+    {
+      "v": 1.0239,
+      "n": 8,
+      "mean": 0.029297450858273327,
+      "sd_pct": 4.832795274830945,
+      "spread_pct": 13.722586958691545,
+      "n_blocks": 2
+    },
+    {
+      "v": 1.0649,
+      "n": 3,
+      "mean": 0.035775468424107316,
+      "sd_pct": 8.714633233445642,
+      "spread_pct": 15.098431835049558,
+      "n_blocks": 3
+    },
+    {
+      "v": 1.1468,
+      "n": 3,
+      "mean": 0.04532473737625583,
+      "sd_pct": 13.059270920492532,
+      "spread_pct": 22.822715091546467,
+      "n_blocks": 3
+    }
+  ],
+  "u_star_by_block": [
+    {
+      "block": "E2 freq (seg/L 8.3)",
+      "n": 6,
+      "mean": 0.29419495672940926,
+      "spread_pct": 17.7124873269366
+    },
+    {
+      "block": "E3 tsim",
+      "n": 5,
+      "mean": 0.3071619777932736,
+      "spread_pct": 10.182827822325805
+    },
+    {
+      "block": "E4 lookahead",
+      "n": 4,
+      "mean": 0.31304714622446134,
+      "spread_pct": 0.5513485852041901
+    },
+    {
+      "block": "E5 alpha (a<=90 only)",
+      "n": 4,
+      "mean": 0.307281824705867,
+      "spread_pct": 4.488097455864642
+    },
+    {
+      "block": "E6 nulls",
+      "n": 9,
+      "mean": 0.3105557021171006,
+      "spread_pct": 2.468913260893754
+    },
+    {
+      "block": "E7 replicate",
+      "n": 5,
+      "mean": 0.30882204367040067,
+      "spread_pct": 3.149221781045088
+    },
+    {
+      "block": "E8 freq_iso t=.10",
+      "n": 6,
+      "mean": 0.28979964954358994,
+      "spread_pct": 11.0167986850365
+    },
+    {
+      "block": "E11a freq_iso t=.05",
+      "n": 6,
+      "mean": 0.3005398519828365,
+      "spread_pct": 21.50825203058206
+    },
+    {
+      "block": "E11b freq_iso t=.20",
+      "n": 6,
+      "mean": 0.29748133839570134,
+      "spread_pct": 11.534114762922675
+    }
+  ],
+  "u_star_pooled_mean": 0.30290847235299634,
+  "u_star_pooled_sd_pct": 5.122175527463951,
+  "c_extra": [
+    {
+      "fit": "E11a freq_iso t=.05",
+      "c_ms": 2.562198730661088,
+      "absorbs_ms": 5.0,
+      "c_extra_ms": -2.437801269338912
+    },
+    {
+      "fit": "E8   freq_iso t=.10",
+      "c_ms": 5.182711843495337,
+      "absorbs_ms": 5.0,
+      "c_extra_ms": 0.18271184349533698
+    },
+    {
+      "fit": "E11b freq_iso t=.20",
+      "c_ms": -5.386759769207292,
+      "absorbs_ms": 5.0,
+      "c_extra_ms": -10.386759769207291
+    },
+    {
+      "fit": "E3   tsim",
+      "c_ms": 21.77079534804838,
+      "absorbs_ms": 25.0,
+      "c_extra_ms": -3.229204651951619
+    },
+    {
+      "fit": "E1 tau sweep (PRELIM)",
+      "c_ms": 31.043155409753677,
+      "absorbs_ms": 30.000000000000004,
+      "c_extra_ms": 1.0431554097536733
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "look": 2.0,
+  "tau_tot": 0.6663333333333333,
+  "u_star": 0.4995,
+  "u_c": 1.5707963267948966,
+  "efold_at_ustar_L": 0.6285391999170025,
+  "rows": [
+    {
+      "name": "Circle R=10",
+      "kind": "smooth",
+      "length_m": 62.831853071795855,
+      "R_min_m": 9.999999999999996,
+      "R_max_m": 10.000000000000002,
+      "kappa_rms": 0.1,
+      "dkappa_max": 8.834874115176438e-14,
+      "Lambda_m": Infinity,
+      "Lambda_over_L": Infinity,
+      "pass_A": true,
+      "ell_over_Lambda": 0.0,
+      "pass_B": true,
+      "u_window": [
+        0.02,
+        1.5707953267948966
+      ],
+      "n_grid": 18,
+      "u_star_inside": true
+    },
+    {
+      "name": "Ellipse a=12,b=6",
+      "kind": "smooth",
+      "length_m": 58.13068932328605,
+      "R_min_m": 3.0,
+      "R_max_m": 24.0,
+      "kappa_rms": 0.16002386974726263,
+      "dkappa_max": 0.07228091719857944,
+      "Lambda_m": 2.2139158708739743,
+      "Lambda_over_L": 1.1069579354369872,
+      "pass_A": true,
+      "ell_over_Lambda": 0.567807664406758,
+      "pass_B": true,
+      "u_window": null,
+      "n_grid": 0,
+      "u_star_inside": false
+    },
+    {
+      "name": "Lemniscate a=7",
+      "kind": "smooth",
+      "length_m": 36.70880576008967,
+      "R_min_m": 2.3333333330130186,
+      "R_max_m": Infinity,
+      "kappa_rms": 0.2758261084161642,
+      "dkappa_max": 0.06122457270559771,
+      "Lambda_m": 4.505153669956861,
+      "Lambda_over_L": 2.2525768349784303,
+      "pass_A": true,
+      "ell_over_Lambda": 0.2790311922580972,
+      "pass_B": true,
+      "u_window": [
+        0.34979311589872975,
+        0.4345483182681893
+      ],
+      "n_grid": 1,
+      "u_star_inside": false
+    },
+    {
+      "name": "Suzuka (to 62.83 m)",
+      "kind": "smooth",
+      "length_m": 62.813058594236196,
+      "R_min_m": 0.18675232473938225,
+      "R_max_m": 475518.8085422331,
+      "kappa_rms": 0.7832356405742026,
+      "dkappa_max": 24.76094117866074,
+      "Lambda_m": 0.03163190102196939,
+      "Lambda_over_L": 0.015815950510984694,
+      "pass_A": false,
+      "ell_over_Lambda": 39.740842605726506,
+      "pass_B": false,
+      "u_window": null,
+      "n_grid": 0,
+      "u_star_inside": false
+    },
+    {
+      "name": "Suzuka (UNSCALED, 5.807 km)",
+      "kind": "smooth",
+      "length_m": 57717.99073852657,
+      "R_min_m": 171.55261897797607,
+      "R_max_m": 436816500.63820624,
+      "kappa_rms": 0.0008526309744927289,
+      "dkappa_max": 2.93429975166032e-05,
+      "Lambda_m": 29.057391768181937,
+      "Lambda_over_L": 14.528695884090968,
+      "pass_A": true,
+      "ell_over_Lambda": 0.04326191455389039,
+      "pass_B": true,
+      "u_window": [
+        0.02,
+        1.0010821778393435
+      ],
+      "n_grid": 12,
+      "u_star_inside": true
+    },
+    {
+      "name": "Square h=10",
+      "kind": "polygon",
+      "length_m": null,
+      "R_min_m": Infinity,
+      "R_max_m": Infinity,
+      "Lambda_m": 20.0,
+      "Lambda_over_L": 10.0,
+      "ell_over_Lambda": 0.06285391999170024,
+      "pass_B": true,
+      "u_window": [
+        0.02,
+        0.8813547922414977
+      ],
+      "n_grid": 10,
+      "u_star_inside": true
+    },
+    {
+      "name": "Zigzag amp=sx=5",
+      "kind": "polygon",
+      "length_m": null,
+      "R_min_m": Infinity,
+      "R_max_m": Infinity,
+      "Lambda_m": 7.0710678118654755,
+      "Lambda_over_L": 3.5355339059327378,
+      "ell_over_Lambda": 0.1777777322011518,
+      "pass_B": true,
+      "u_window": [
+        0.20292545506821147,
+        0.5551286839447763
+      ],
+      "n_grid": 4,
+      "u_star_inside": true
+    },
+    {
+      "name": "Zigzag harmonised",
+      "kind": "polygon",
+      "length_m": null,
+      "R_min_m": Infinity,
+      "R_max_m": Infinity,
+      "Lambda_m": 20.0,
+      "Lambda_over_L": 10.0,
+      "ell_over_Lambda": 0.06285391999170024,
+      "pass_B": true,
+      "u_window": [
+        0.02,
+        0.8813547922414977
+      ],
+      "n_grid": 10,
+      "u_star_inside": true
+    }
+  ]
+}

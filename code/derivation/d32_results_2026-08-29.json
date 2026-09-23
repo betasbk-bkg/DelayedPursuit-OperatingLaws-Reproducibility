@@ -1,0 +1,106 @@
+{
+  "trace": [
+    {
+      "claim": "b(m), s(m) closed form",
+      "code": "d9, d12",
+      "verified": "engine Monte Carlo (rms 0.025 / 0.051 deg)",
+      "buggy": "none"
+    },
+    {
+      "claim": "m_c = Delta/2 - a_acc",
+      "code": "d9",
+      "verified": "closed form sweep -> CHECKED HERE with MC",
+      "buggy": "none"
+    },
+    {
+      "claim": "cylinder flow, similarity",
+      "code": "d6, d7",
+      "verified": "1-DOF surrogate vs 150-agent engine (0.9-3.6%)",
+      "buggy": "none"
+    },
+    {
+      "claim": "fold caustic rho ~ 1/sqrt",
+      "code": "d7, d10",
+      "verified": "rho^-2 linear, R2 = 0.9997",
+      "buggy": "none"
+    },
+    {
+      "claim": "Eq. (12) edge law / c",
+      "code": "d19 vs d10",
+      "verified": "flow, and independently d28 return map",
+      "buggy": "none"
+    },
+    {
+      "claim": "sigma_theta (13)",
+      "code": "d20, d21",
+      "verified": "engine sigma (7.0-7.8%)",
+      "buggy": "none"
+    },
+    {
+      "claim": "symbolic word +, +-+",
+      "code": "d29",
+      "verified": "crossing counts in the faithful flow",
+      "buggy": "d25 discarded"
+    },
+    {
+      "claim": "branch selection, basins",
+      "code": "d28, d29",
+      "verified": "flow's own z located in the basin",
+      "buggy": "d27 superseded"
+    },
+    {
+      "claim": "transition curve",
+      "code": "d30, d31",
+      "verified": "NOT closed",
+      "buggy": "d26, d30[C] discarded"
+    }
+  ],
+  "generator_validation": {
+    "max_diff": 0.07013513461478915,
+    "rms": 0.02929068454629702,
+    "m_c_engine": 19.5,
+    "m_c_param": 19.5
+  },
+  "m_c_mc": [
+    {
+      "a_acc": 1.0,
+      "n_dirs": 8,
+      "m_c_mc": 21.375,
+      "m_c_closed": 21.375,
+      "law": 21.5,
+      "err": -0.125
+    },
+    {
+      "a_acc": 6.0,
+      "n_dirs": 8,
+      "m_c_mc": 16.5,
+      "m_c_closed": 16.5,
+      "law": 16.5,
+      "err": 0.0
+    },
+    {
+      "a_acc": 10.0,
+      "n_dirs": 8,
+      "m_c_mc": 12.375,
+      "m_c_closed": 12.375,
+      "law": 12.5,
+      "err": -0.125
+    },
+    {
+      "a_acc": 3.0,
+      "n_dirs": 4,
+      "m_c_mc": 42.0,
+      "m_c_closed": 42.0,
+      "law": 42.0,
+      "err": 0.0
+    },
+    {
+      "a_acc": 3.0,
+      "n_dirs": 16,
+      "m_c_mc": 8.25,
+      "m_c_closed": 8.25,
+      "law": 8.25,
+      "err": 0.0
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "reps": 4,
+  "speeds": [
+    0.4775,
+    0.5398,
+    0.6021
+  ],
+  "runs": [
+    {
+      "rep": 0,
+      "v": 0.4775,
+      "rmse": 0.02707627581154659,
+      "wall_s": 127.17671418190002
+    },
+    {
+      "rep": 0,
+      "v": 0.5398,
+      "rmse": 0.028449376806125165,
+      "wall_s": 112.99593567848206
+    },
+    {
+      "rep": 0,
+      "v": 0.6021,
+      "rmse": 0.029651591864732426,
+      "wall_s": 101.35695743560791
+    },
+    {
+      "rep": 1,
+      "v": 0.4775,
+      "rmse": 0.026969389637047644,
+      "wall_s": 128.1724054813385
+    },
+    {
+      "rep": 1,
+      "v": 0.5398,
+      "rmse": 0.02762663335536842,
+      "wall_s": 113.97795295715332
+    },
+    {
+      "rep": 1,
+      "v": 0.6021,
+      "rmse": 0.02788539706736241,
+      "wall_s": 101.82375884056091
+    }
+  ],
+  "replication_means": {
+    "0.4775": 0.02702283272429712,
+    "0.5398": 0.028038005080746792,
+    "0.6021": 0.028768494466047418
+  },
+  "monotone_in_replication": true,
+  "block_values": {
+    "0.4775": 0.02835,
+    "0.5398": 0.02754,
+    "0.6021": 0.03019
+  },
+  "n_launches": 2,
+  "note": "Two independent launches; within-launch repeat agreement 0.4% at v=0.4775 (0.02708 vs 0.02697). The block value at v=0.5398 (0.02754) is 0.4-3.0% below both replicated launches, and the wiggle it produced does not reproduce. The reproducibility unit is the launch, not the point."
+}

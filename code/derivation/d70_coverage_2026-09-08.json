@@ -1,0 +1,52 @@
+{
+  "lemniscate/global": {
+    "rmse": 0.22608938408020154,
+    "coverage": 1.0,
+    "laps_ctrl": 0.0
+  },
+  "lemniscate/monotone": {
+    "rmse": 0.2146976585474475,
+    "coverage": 1.0,
+    "laps_ctrl": 3.2815057283142313
+  },
+  "zigzag (open)/global": {
+    "rmse": 1.2417370919860737,
+    "coverage": 0.925,
+    "laps_ctrl": 0.0
+  },
+  "zigzag (open)/monotone": {
+    "rmse": 1.2390226419500474,
+    "coverage": 0.925,
+    "laps_ctrl": 1.2316176470588223
+  },
+  "zigzag_closed/global": {
+    "rmse": 0.5305112953698937,
+    "coverage": 0.795,
+    "laps_ctrl": 0.0
+  },
+  "zigzag_closed/monotone": {
+    "rmse": 0.5251985800919956,
+    "coverage": 0.8,
+    "laps_ctrl": 0.831553210654996
+  },
+  "circle/global": {
+    "rmse": 0.24090850810056258,
+    "coverage": 1.0,
+    "laps_ctrl": 0.0
+  },
+  "circle/monotone": {
+    "rmse": 0.2409155905537081,
+    "coverage": 1.0,
+    "laps_ctrl": 2.0101845957988504
+  },
+  "square/global": {
+    "rmse": 0.3356641150130365,
+    "coverage": 1.0,
+    "laps_ctrl": 0.0
+  },
+  "square/monotone": {
+    "rmse": 0.33718379240432167,
+    "coverage": 1.0,
+    "laps_ctrl": 1.5879999999999999
+  }
+}

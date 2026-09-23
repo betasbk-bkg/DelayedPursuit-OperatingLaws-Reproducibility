@@ -1,0 +1,72 @@
+{
+  "freq": 10.0,
+  "tau": 0.1,
+  "runs": [
+    {
+      "mode": "STOCK_KEY",
+      "node_holds": "Boolean value is: False",
+      "u": 0.3789,
+      "v": 1.466767451612903,
+      "rmse": 0.018709793953858606,
+      "rmse_original": 0.02262457123933593,
+      "rmse_rerun": 0.018634706821767242,
+      "goal_status": 4,
+      "truncated": false
+    },
+    {
+      "mode": "STOCK_KEY",
+      "node_holds": "Boolean value is: False",
+      "u": 0.4107,
+      "v": 1.5896803064516125,
+      "rmse": 0.021867538921051467,
+      "rmse_original": 0.030773466638726175,
+      "rmse_rerun": 0.02191004542220087,
+      "goal_status": 4,
+      "truncated": false
+    },
+    {
+      "mode": "STOCK_KEY",
+      "node_holds": "Boolean value is: False",
+      "u": 0.4424,
+      "v": 1.7125931612903227,
+      "rmse": 0.03805761232021969,
+      "rmse_original": 0.03805761232021853,
+      "rmse_rerun": 0.0273300928515061,
+      "goal_status": 4,
+      "truncated": false
+    },
+    {
+      "mode": "FALSE_KEY",
+      "node_holds": "Boolean value is: False",
+      "u": 0.3789,
+      "v": 1.466767451612903,
+      "rmse": 0.018641616917934725,
+      "rmse_original": 0.02262457123933593,
+      "rmse_rerun": 0.018634706821767242,
+      "goal_status": 4,
+      "truncated": false
+    },
+    {
+      "mode": "FALSE_KEY",
+      "node_holds": "Boolean value is: False",
+      "u": 0.4107,
+      "v": 1.5896803064516125,
+      "rmse": 0.02324562178147936,
+      "rmse_original": 0.030773466638726175,
+      "rmse_rerun": 0.02191004542220087,
+      "goal_status": 4,
+      "truncated": false
+    },
+    {
+      "mode": "FALSE_KEY",
+      "node_holds": "Boolean value is: False",
+      "u": 0.4424,
+      "v": 1.7125931612903227,
+      "rmse": 0.02742892192673524,
+      "rmse_original": 0.03805761232021853,
+      "rmse_rerun": 0.0273300928515061,
+      "goal_status": 4,
+      "truncated": false
+    }
+  ]
+}

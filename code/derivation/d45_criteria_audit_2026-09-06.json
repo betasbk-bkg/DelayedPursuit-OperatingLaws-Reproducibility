@@ -1,0 +1,1345 @@
+{
+  "part_a": [
+    {
+      "line": 27,
+      "label": "tau_tot (s)",
+      "want": 0.66667,
+      "want_src": "0.66667",
+      "tol": 0.0001,
+      "ulp": 5e-06,
+      "ratio": 20.0,
+      "rel_slack_pct": 0.014999925000375,
+      "class": "LOOSE"
+    },
+    {
+      "line": 36,
+      "label": "A0 rises from alpha=15 to 120 (report: +0.085)",
+      "want": 0.085,
+      "want_src": "0.085",
+      "tol": 0.01,
+      "ulp": 0.0005,
+      "ratio": 20.0,
+      "rel_slack_pct": 11.76470588235294,
+      "class": "LOOSE"
+    },
+    {
+      "line": 38,
+      "label": "mean-delay reduction error, alpha<=45 (report: <=4%)",
+      "want": 3.5,
+      "want_src": "3.5",
+      "tol": 1.5,
+      "ulp": 0.05,
+      "ratio": 30.0,
+      "rel_slack_pct": 42.857142857142854,
+      "class": "LOOSE"
+    },
+    {
+      "line": 49,
+      "label": "mean |err| over 18 points (report: 5.5%)",
+      "want": 5.5,
+      "want_src": "5.5",
+      "tol": 0.6,
+      "ulp": 0.05,
+      "ratio": 11.999999999999998,
+      "rel_slack_pct": 10.909090909090908,
+      "class": "LOOSE"
+    },
+    {
+      "line": 50,
+      "label": "mean |err|, triangle only (report: 2.3%)",
+      "want": 2.3,
+      "want_src": "2.3",
+      "tol": 0.6,
+      "ulp": 0.05,
+      "ratio": 11.999999999999998,
+      "rel_slack_pct": 26.086956521739133,
+      "class": "LOOSE"
+    },
+    {
+      "line": 52,
+      "label": "triangle A_pred (report: 0.49-0.60, i.e. NOT 0.5)",
+      "want": 0.546,
+      "want_src": "0.546",
+      "tol": 0.03,
+      "ulp": 0.0005,
+      "ratio": 60.0,
+      "rel_slack_pct": 5.4945054945054945,
+      "class": "LOOSE"
+    },
+    {
+      "line": 56,
+      "label": "open-loop swept sigma (manuscript 11.06 deg)",
+      "want": 11.06,
+      "want_src": "11.06",
+      "tol": 0.3,
+      "ulp": 0.005,
+      "ratio": 60.0,
+      "rel_slack_pct": 2.7124773960216997,
+      "class": "LOOSE"
+    },
+    {
+      "line": 58,
+      "label": "closed-loop sigma at v=2.0 (engine's SPEED_REF; published 8.",
+      "want": 8.543,
+      "want_src": "8.543",
+      "tol": 0.2,
+      "ulp": 0.0005,
+      "ratio": 400.0,
+      "rel_slack_pct": 2.341097974950252,
+      "class": "LOOSE"
+    },
+    {
+      "line": 60,
+      "label": "attenuation at v=2.0 (manuscript 0.778)",
+      "want": 0.778,
+      "want_src": "0.778",
+      "tol": 0.02,
+      "ulp": 0.0005,
+      "ratio": 40.0,
+      "rel_slack_pct": 2.570694087403599,
+      "class": "LOOSE"
+    },
+    {
+      "line": 61,
+      "label": "attenuation predicted from in-cell density alone",
+      "want": 0.833,
+      "want_src": "0.833",
+      "tol": 0.03,
+      "ulp": 0.0005,
+      "ratio": 60.0,
+      "rel_slack_pct": 3.6014405762304924,
+      "class": "LOOSE"
+    },
+    {
+      "line": 62,
+      "label": "in-cell |m|_rms at v=2.0 (uniform sweep = 12.99)",
+      "want": 10.48,
+      "want_src": "10.48",
+      "tol": 0.4,
+      "ulp": 0.005,
+      "ratio": 80.0,
+      "rel_slack_pct": 3.8167938931297707,
+      "class": "LOOSE"
+    },
+    {
+      "line": 65,
+      "label": "attenuation range over v (report: 0.75-0.99, NOT a constant)",
+      "want": 0.244,
+      "want_src": "0.244",
+      "tol": 0.03,
+      "ulp": 0.0005,
+      "ratio": 60.0,
+      "rel_slack_pct": 12.295081967213115,
+      "class": "LOOSE"
+    },
+    {
+      "line": 71,
+      "label": "mean |err| over 10 published floors (report: 8.7%)",
+      "want": 8.7,
+      "want_src": "8.7",
+      "tol": 1.0,
+      "ulp": 0.05,
+      "ratio": 20.0,
+      "rel_slack_pct": 11.49425287356322,
+      "class": "LOOSE"
+    },
+    {
+      "line": 73,
+      "label": "cases within 2.5% (report: 6 of 10)",
+      "want": 6.0,
+      "want_src": "6",
+      "tol": 0.5,
+      "ulp": 0.5,
+      "ratio": 1.0,
+      "rel_slack_pct": 8.333333333333334,
+      "class": "ROUNDOFF"
+    },
+    {
+      "line": 78,
+      "label": "mean |err| over 5 circle optima (report: 8.1%)",
+      "want": 8.1,
+      "want_src": "8.1",
+      "tol": 1.0,
+      "ulp": 0.05,
+      "ratio": 20.0,
+      "rel_slack_pct": 12.345679012345679,
+      "class": "LOOSE"
+    },
+    {
+      "line": 79,
+      "label": "worst |err| (report: 13.7% at tau=1.5 s)",
+      "want": 13.7,
+      "want_src": "13.7",
+      "tol": 1.0,
+      "ulp": 0.05,
+      "ratio": 20.0,
+      "rel_slack_pct": 7.299270072992701,
+      "class": "LOOSE"
+    },
+    {
+      "line": 87,
+      "label": "1-DOF surrogate vs 150-agent sigma, max |err| (report 3.6%)",
+      "want": 3.6,
+      "want_src": "3.6",
+      "tol": 0.5,
+      "ulp": 0.05,
+      "ratio": 10.0,
+      "rel_slack_pct": 13.88888888888889,
+      "class": "LOOSE"
+    },
+    {
+      "line": 88,
+      "label": "stall condition z = L/R (deg)",
+      "want": 11.459,
+      "want_src": "11.459",
+      "tol": 0.01,
+      "ulp": 0.0005,
+      "ratio": 20.0,
+      "rel_slack_pct": 0.08726764988218867,
+      "class": "LOOSE"
+    },
+    {
+      "line": 89,
+      "label": "k = R/L",
+      "want": 5.0,
+      "want_src": "5.0",
+      "tol": 1e-09,
+      "ulp": 0.05,
+      "ratio": 2e-08,
+      "rel_slack_pct": 2e-08,
+      "class": "ROUNDOFF"
+    },
+    {
+      "line": 91,
+      "label": "fold law: rho^-2 linear in m, R^2 (report 0.9997)",
+      "want": 0.9997,
+      "want_src": "0.9997",
+      "tol": 0.001,
+      "ulp": 5e-05,
+      "ratio": 20.0,
+      "rel_slack_pct": 0.10003000900270081,
+      "class": "LOOSE"
+    },
+    {
+      "line": 93,
+      "label": "caustic edge at u=0 vs snap half-width -m_c",
+      "want": null,
+      "want_src": "-d8[\"m_c\"]",
+      "tol": 0.6,
+      "ulp": null,
+      "ratio": null,
+      "rel_slack_pct": null,
+      "class": "NON-LITERAL"
+    },
+    {
+      "line": 102,
+      "label": "attenuation at the optimal margin u=0.71 (manuscript 0.778)",
+      "want": 0.778,
+      "want_src": "0.778",
+      "tol": 0.02,
+      "ulp": 0.0005,
+      "ratio": 40.0,
+      "rel_slack_pct": 2.570694087403599,
+      "class": "LOOSE"
+    },
+    {
+      "line": 106,
+      "label": "margin from DERIVED sigma, mean |err| (report 12.8%)",
+      "want": 12.8,
+      "want_src": "12.8",
+      "tol": 1.0,
+      "ulp": 0.05,
+      "ratio": 20.0,
+      "rel_slack_pct": 7.8125,
+      "class": "LOOSE"
+    },
+    {
+      "line": 112,
+      "label": "closed-form b(m) vs engine MC, rms (report 0.025 deg)",
+      "want": 0.025,
+      "want_src": "0.025",
+      "tol": 0.005,
+      "ulp": 0.0005,
+      "ratio": 10.0,
+      "rel_slack_pct": 20.0,
+      "class": "LOOSE"
+    },
+    {
+      "line": 114,
+      "label": "m_c law slope (hypothesis -1)",
+      "want": -1.0,
+      "want_src": "-1.0",
+      "tol": 0.001,
+      "ulp": 0.05,
+      "ratio": 0.02,
+      "rel_slack_pct": 0.1,
+      "class": "ROUNDOFF"
+    },
+    {
+      "line": 115,
+      "label": "m_c law intercept = Delta/2 (22.5)",
+      "want": 22.5,
+      "want_src": "22.5",
+      "tol": 0.001,
+      "ulp": 0.05,
+      "ratio": 0.02,
+      "rel_slack_pct": 0.0044444444444444444,
+      "class": "ROUNDOFF"
+    },
+    {
+      "line": 117,
+      "label": "max |m_c - (Delta/2 - a)| over the a sweep",
+      "want": 0.0,
+      "want_src": "0.0",
+      "tol": 0.006,
+      "ulp": 0.05,
+      "ratio": 0.12,
+      "rel_slack_pct": null,
+      "class": "ROUNDOFF"
+    },
+    {
+      "line": 119,
+      "label": "max |m_c - (Delta/2 - a)| over the n_dirs sweep",
+      "want": 0.0,
+      "want_src": "0.0",
+      "tol": 0.006,
+      "ulp": 0.05,
+      "ratio": 0.12,
+      "rel_slack_pct": null,
+      "class": "ROUNDOFF"
+    },
+    {
+      "line": 121,
+      "label": "caustic edge at u=0 vs -m_c (report 0.63 deg)",
+      "want": 0.63,
+      "want_src": "0.63",
+      "tol": 0.1,
+      "ulp": 0.005,
+      "ratio": 20.0,
+      "rel_slack_pct": 15.873015873015873,
+      "class": "LOOSE"
+    },
+    {
+      "line": 123,
+      "label": "c on the linear branch (report 2.32)",
+      "want": 2.32,
+      "want_src": "2.32",
+      "tol": 0.05,
+      "ulp": 0.005,
+      "ratio": 10.0,
+      "rel_slack_pct": 2.1551724137931036,
+      "class": "LOOSE"
+    },
+    {
+      "line": 124,
+      "label": "linear-branch fit rms (report 0.13 deg)",
+      "want": 0.13,
+      "want_src": "0.13",
+      "tol": 0.05,
+      "ulp": 0.005,
+      "ratio": 10.0,
+      "rel_slack_pct": 38.46153846153846,
+      "class": "LOOSE"
+    },
+    {
+      "line": 128,
+      "label": "flow vs surrogate edge, max diff (report 0.82 deg)",
+      "want": 0.82,
+      "want_src": "0.82",
+      "tol": 0.1,
+      "ulp": 0.005,
+      "ratio": 20.0,
+      "rel_slack_pct": 12.195121951219512,
+      "class": "LOOSE"
+    },
+    {
+      "line": 133,
+      "label": "closed-form s(m) vs engine, rms (report 0.051 deg)",
+      "want": 0.051,
+      "want_src": "0.051",
+      "tol": 0.01,
+      "ulp": 0.0005,
+      "ratio": 20.0,
+      "rel_slack_pct": 19.607843137254903,
+      "class": "LOOSE"
+    },
+    {
+      "line": 135,
+      "label": "open-loop sweep from closed form (engine MC 10.95)",
+      "want": 10.95,
+      "want_src": "10.95",
+      "tol": 0.15,
+      "ulp": 0.005,
+      "ratio": 30.0,
+      "rel_slack_pct": 1.3698630136986303,
+      "class": "LOOSE"
+    },
+    {
+      "line": 137,
+      "label": "sigma_theta(u) from the derived density, mean |err| (report ",
+      "want": 5.7,
+      "want_src": "5.7",
+      "tol": 1.0,
+      "ulp": 0.05,
+      "ratio": 20.0,
+      "rel_slack_pct": 17.543859649122805,
+      "class": "LOOSE"
+    },
+    {
+      "line": 151,
+      "label": "c at the pure-sawtooth limit m_c = Delta/2 (report 2.34)",
+      "want": 2.34,
+      "want_src": "2.34",
+      "tol": 0.05,
+      "ulp": 0.005,
+      "ratio": 10.0,
+      "rel_slack_pct": 2.1367521367521367,
+      "class": "LOOSE"
+    },
+    {
+      "line": 156,
+      "label": "a = c - k*Delta/2, spread over k = 1.5-4 (report <= 0.06)",
+      "want": 0.055,
+      "want_src": "0.055",
+      "tol": 0.02,
+      "ulp": 0.0005,
+      "ratio": 40.0,
+      "rel_slack_pct": 36.36363636363637,
+      "class": "LOOSE"
+    },
+    {
+      "line": 162,
+      "label": "k=6.5 prediction failure is recorded (observed c ~ 0)",
+      "want": -0.05,
+      "want_src": "-0.05",
+      "tol": 0.1,
+      "ulp": 0.005,
+      "ratio": 20.0,
+      "rel_slack_pct": 200.0,
+      "class": "LOOSE"
+    },
+    {
+      "line": 169,
+      "label": "k=5 dt convergence, max shift 2e-3 -> 5e-4 (report 0.25 deg)",
+      "want": 0.25,
+      "want_src": "0.25",
+      "tol": 0.05,
+      "ulp": 0.005,
+      "ratio": 10.0,
+      "rel_slack_pct": 20.0,
+      "class": "LOOSE"
+    },
+    {
+      "line": 171,
+      "label": "k=5 monotone at every dt",
+      "want": 1.0,
+      "want_src": "1.0",
+      "tol": 0.5,
+      "ulp": 0.05,
+      "ratio": 10.0,
+      "rel_slack_pct": 50.0,
+      "class": "BOOLEAN"
+    },
+    {
+      "line": 173,
+      "label": "k=6.5 non-monotone at every dt (breakdown is dynamical)",
+      "want": 0.0,
+      "want_src": "0.0",
+      "tol": 0.5,
+      "ulp": 0.05,
+      "ratio": 10.0,
+      "rel_slack_pct": null,
+      "class": "BOOLEAN"
+    },
+    {
+      "line": 183,
+      "label": "upper boundary in k*Delta/2 agrees across grids (report ~2.2",
+      "want": null,
+      "want_src": "max(r[\"kD2\"] for r in ok16)",
+      "tol": 0.25,
+      "ulp": null,
+      "ratio": null,
+      "rel_slack_pct": null,
+      "class": "NON-LITERAL"
+    },
+    {
+      "line": 190,
+      "label": "c collapse across grids at matched k*Delta/2, max |diff| (re",
+      "want": 0.12,
+      "want_src": "0.12",
+      "tol": 0.03,
+      "ulp": 0.005,
+      "ratio": 6.0,
+      "rel_slack_pct": 25.0,
+      "class": "LOOSE"
+    },
+    {
+      "line": 195,
+      "label": "published geometry k*Delta/2",
+      "want": 1.963,
+      "want_src": "1.963",
+      "tol": 0.005,
+      "ulp": 0.0005,
+      "ratio": 10.0,
+      "rel_slack_pct": 0.25471217524197654,
+      "class": "LOOSE"
+    },
+    {
+      "line": 206,
+      "label": "max u-spread of the residual (report <= 0.10 deg)",
+      "want": 0.1,
+      "want_src": "0.10",
+      "tol": 0.03,
+      "ulp": 0.005,
+      "ratio": 6.0,
+      "rel_slack_pct": 30.0,
+      "class": "LOOSE"
+    },
+    {
+      "line": 208,
+      "label": "a predicted as 1 - <u> over the fit window (report 0.399)",
+      "want": 0.3986,
+      "want_src": "0.3986",
+      "tol": 0.005,
+      "ulp": 5e-05,
+      "ratio": 100.0,
+      "rel_slack_pct": 1.2543903662819869,
+      "class": "LOOSE"
+    },
+    {
+      "line": 216,
+      "label": "predicted breakdown threshold in k*Delta/2, both grids agree",
+      "want": null,
+      "want_src": "min(r[\"kD2\"] for r in brk16)",
+      "tol": 0.02,
+      "ulp": null,
+      "ratio": null,
+      "rel_slack_pct": null,
+      "class": "NON-LITERAL"
+    },
+    {
+      "line": 230,
+      "label": "attenuation at u=0.71 from the analytic orbit (manuscript 0.",
+      "want": 0.744,
+      "want_src": "0.744",
+      "tol": 0.01,
+      "ulp": 0.0005,
+      "ratio": 20.0,
+      "rel_slack_pct": 1.3440860215053763,
+      "class": "LOOSE"
+    },
+    {
+      "line": 237,
+      "label": "m_c used (Delta/2 - a_acc)",
+      "want": 19.5,
+      "want_src": "19.5",
+      "tol": 0.01,
+      "ulp": 0.05,
+      "ratio": 0.19999999999999998,
+      "rel_slack_pct": 0.05128205128205128,
+      "class": "ROUNDOFF"
+    },
+    {
+      "line": 238,
+      "label": "two-piece closed form, mean |err| (report 7.8%)",
+      "want": 7.8,
+      "want_src": "7.8",
+      "tol": 1.0,
+      "ulp": 0.05,
+      "ratio": 20.0,
+      "rel_slack_pct": 12.820512820512821,
+      "class": "LOOSE"
+    },
+    {
+      "line": 252,
+      "label": "wide-window offset grows with k (max, report 2.21 deg)",
+      "want": 2.21,
+      "want_src": "2.21",
+      "tol": 0.05,
+      "ulp": 0.005,
+      "ratio": 10.0,
+      "rel_slack_pct": 2.262443438914027,
+      "class": "LOOSE"
+    },
+    {
+      "line": 253,
+      "label": "narrow-window offset does not (max, report <= 0.85 deg)",
+      "want": 0.83,
+      "want_src": "0.83",
+      "tol": 0.1,
+      "ulp": 0.005,
+      "ratio": 20.0,
+      "rel_slack_pct": 12.048192771084338,
+      "class": "LOOSE"
+    },
+    {
+      "line": 259,
+      "label": "converged offset is k-independent (spread, report <= 0.05 de",
+      "want": 0.05,
+      "want_src": "0.05",
+      "tol": 0.05,
+      "ulp": 0.005,
+      "ratio": 10.0,
+      "rel_slack_pct": 100.0,
+      "class": "LOOSE"
+    },
+    {
+      "line": 293,
+      "label": "inside the window: one stable branch at every u",
+      "want": 1.0,
+      "want_src": "1.0",
+      "tol": 0.5,
+      "ulp": 0.05,
+      "ratio": 10.0,
+      "rel_slack_pct": 50.0,
+      "class": "BOOLEAN"
+    },
+    {
+      "line": 312,
+      "label": "word is '+' everywhere at kD/2 = 1.96 (published geometry)",
+      "want": 1.0,
+      "want_src": "1.0",
+      "tol": 0.5,
+      "ulp": 0.05,
+      "ratio": 10.0,
+      "rel_slack_pct": 50.0,
+      "class": "BOOLEAN"
+    },
+    {
+      "line": 319,
+      "label": "1-D section valid across the transition (all gaps > theta_d)",
+      "want": 1.0,
+      "want_src": "1.0",
+      "tol": 0.5,
+      "ulp": 0.05,
+      "ratio": 10.0,
+      "rel_slack_pct": 50.0,
+      "class": "BOOLEAN"
+    },
+    {
+      "line": 324,
+      "label": "boundary is NOT monotone in u (u=0.30 above u=0.50)",
+      "want": 1.0,
+      "want_src": "1.0",
+      "tol": 0.5,
+      "ulp": 0.05,
+      "ratio": 10.0,
+      "rel_slack_pct": 50.0,
+      "class": "BOOLEAN"
+    },
+    {
+      "line": 329,
+      "label": "basin crossing mean |err| (report 0.29)",
+      "want": 0.29,
+      "want_src": "0.29",
+      "tol": 0.05,
+      "ulp": 0.005,
+      "ratio": 10.0,
+      "rel_slack_pct": 17.24137931034483,
+      "class": "LOOSE"
+    },
+    {
+      "line": 330,
+      "label": "existence criterion mean |err| (report 0.75)",
+      "want": 0.75,
+      "want_src": "0.75",
+      "tol": 0.05,
+      "ulp": 0.005,
+      "ratio": 10.0,
+      "rel_slack_pct": 6.666666666666667,
+      "class": "LOOSE"
+    },
+    {
+      "line": 334,
+      "label": "published geometry margin to the lowest measured transition ",
+      "want": 6.0,
+      "want_src": "6.0",
+      "tol": 1.0,
+      "ulp": 0.05,
+      "ratio": 20.0,
+      "rel_slack_pct": 16.666666666666668,
+      "class": "LOOSE"
+    },
+    {
+      "line": 341,
+      "label": "parameterised MC vs engine gen_votes, max diff",
+      "want": 0.07,
+      "want_src": "0.07",
+      "tol": 0.03,
+      "ulp": 0.005,
+      "ratio": 6.0,
+      "rel_slack_pct": 42.857142857142854,
+      "class": "LOOSE"
+    },
+    {
+      "line": 342,
+      "label": "m_c from the engine MC equals m_c from the parameterised MC",
+      "want": null,
+      "want_src": "g[\"m_c_engine\"]",
+      "tol": 0.01,
+      "ulp": null,
+      "ratio": null,
+      "rel_slack_pct": null,
+      "class": "NON-LITERAL"
+    },
+    {
+      "line": 345,
+      "label": "m_c law checked by MC away from defaults, max |err| (report ",
+      "want": 0.12,
+      "want_src": "0.12",
+      "tol": 0.03,
+      "ulp": 0.005,
+      "ratio": 6.0,
+      "rel_slack_pct": 25.0,
+      "class": "LOOSE"
+    },
+    {
+      "line": 355,
+      "label": "estimator bias on an EXACT density (report -0.04 deg)",
+      "want": -0.04,
+      "want_src": "-0.04",
+      "tol": 0.02,
+      "ulp": 0.005,
+      "ratio": 4.0,
+      "rel_slack_pct": 50.0,
+      "class": "TIGHT"
+    },
+    {
+      "line": 360,
+      "label": "offset at dt = 2e-3 (report 0.32 deg)",
+      "want": 0.32,
+      "want_src": "0.32",
+      "tol": 0.03,
+      "ulp": 0.005,
+      "ratio": 6.0,
+      "rel_slack_pct": 9.375,
+      "class": "LOOSE"
+    },
+    {
+      "line": 361,
+      "label": "offset extrapolated to dt -> 0 (report 0.04 deg)",
+      "want": 0.04,
+      "want_src": "0.04",
+      "tol": 0.02,
+      "ulp": 0.005,
+      "ratio": 4.0,
+      "rel_slack_pct": 50.0,
+      "class": "TIGHT"
+    },
+    {
+      "line": 364,
+      "label": "sigma broadening width is derived, s_bar (report 1.06 deg)",
+      "want": 1.06,
+      "want_src": "1.06",
+      "tol": 0.02,
+      "ulp": 0.005,
+      "ratio": 4.0,
+      "rel_slack_pct": 1.8867924528301885,
+      "class": "TIGHT"
+    },
+    {
+      "line": 366,
+      "label": "sigma mean |err| after broadening (report 7.0%)",
+      "want": 7.0,
+      "want_src": "7.0",
+      "tol": 0.5,
+      "ulp": 0.05,
+      "ratio": 10.0,
+      "rel_slack_pct": 7.142857142857143,
+      "class": "LOOSE"
+    },
+    {
+      "line": 370,
+      "label": "independent re-implementation vs engine, mean |diff| (report",
+      "want": 0.9,
+      "want_src": "0.9",
+      "tol": 0.4,
+      "ulp": 0.05,
+      "ratio": 8.0,
+      "rel_slack_pct": 44.44444444444444,
+      "class": "LOOSE"
+    },
+    {
+      "line": 396,
+      "label": "RPP zero-delay circle RMSE is ~0, not the heading-servo bias",
+      "want": 0.0,
+      "want_src": "0.0",
+      "tol": 0.005,
+      "ulp": 0.05,
+      "ratio": 0.09999999999999999,
+      "rel_slack_pct": null,
+      "class": "ROUNDOFF"
+    },
+    {
+      "line": 404,
+      "label": "closed form u_c = arctan(w)/w, w^2 = 2+2sqrt2",
+      "want": 0.520494,
+      "want_src": "0.520494",
+      "tol": 1e-05,
+      "ulp": 5e-07,
+      "ratio": 20.000000000000004,
+      "rel_slack_pct": 0.00192125173392969,
+      "class": "LOOSE"
+    },
+    {
+      "line": 405,
+      "label": "independent DDE method-of-steps check of u_c",
+      "want": null,
+      "want_src": "uc",
+      "tol": 0.002,
+      "ulp": null,
+      "ratio": null,
+      "rel_slack_pct": null,
+      "class": "NON-LITERAL"
+    },
+    {
+      "line": 407,
+      "label": "lookahead_time must exceed this multiple of tau_tot",
+      "want": 1.9213,
+      "want_src": "1.9213",
+      "tol": 0.001,
+      "ulp": 5e-05,
+      "ratio": 20.0,
+      "rel_slack_pct": 0.05204809243741217,
+      "class": "LOOSE"
+    },
+    {
+      "line": 419,
+      "label": "RPP u* spread over alpha = 15-90 deg",
+      "want": 0.0,
+      "want_src": "0.0",
+      "tol": 3.0,
+      "ulp": 0.05,
+      "ratio": 60.0,
+      "rel_slack_pct": null,
+      "class": "LOOSE"
+    },
+    {
+      "line": 430,
+      "label": "Theorem 2 OFF: u* spread over a 24x delay sweep",
+      "want": 35.1,
+      "want_src": "35.1",
+      "tol": 1.0,
+      "ulp": 0.05,
+      "ratio": 20.0,
+      "rel_slack_pct": 2.849002849002849,
+      "class": "LOOSE"
+    },
+    {
+      "line": 432,
+      "label": "Theorem 2 ON, zero free parameters",
+      "want": 6.5,
+      "want_src": "6.5",
+      "tol": 1.0,
+      "ulp": 0.05,
+      "ratio": 20.0,
+      "rel_slack_pct": 15.384615384615385,
+      "class": "LOOSE"
+    },
+    {
+      "line": 434,
+      "label": "\"one fitted composite delay (%.4f s)\" % bk[\"c_one_fitted_con",
+      "want": 1.7,
+      "want_src": "1.7",
+      "tol": 1.0,
+      "ulp": 0.05,
+      "ratio": 20.0,
+      "rel_slack_pct": 58.82352941176471,
+      "class": "LOOSE"
+    },
+    {
+      "line": 439,
+      "label": "argmin J(u), heading-servo plant (Theorem 1's 1/2)",
+      "want": 0.5,
+      "want_src": "0.5",
+      "tol": 0.01,
+      "ulp": 0.05,
+      "ratio": 0.19999999999999998,
+      "rel_slack_pct": 2.0,
+      "class": "ROUNDOFF"
+    },
+    {
+      "line": 441,
+      "label": "argmin J(u), curvature-command plant (RPP, measured 0.308)",
+      "want": 0.308,
+      "want_src": "0.308",
+      "tol": 0.01,
+      "ulp": 0.0005,
+      "ratio": 20.0,
+      "rel_slack_pct": 3.2467532467532467,
+      "class": "LOOSE"
+    },
+    {
+      "line": 450,
+      "label": "their family at kappa=0 reproduces our closed form u_c",
+      "want": null,
+      "want_src": "e1[\"closed_form_u_c\"]",
+      "tol": 1e-05,
+      "ulp": null,
+      "ratio": null,
+      "rel_slack_pct": null,
+      "class": "NON-LITERAL"
+    },
+    {
+      "line": 453,
+      "label": "their Eq.(32) recovered at u=0: kappa=0.99 stable",
+      "want": 1.0,
+      "want_src": "1.0",
+      "tol": 0.5,
+      "ulp": 0.05,
+      "ratio": 10.0,
+      "rel_slack_pct": 50.0,
+      "class": "BOOLEAN"
+    },
+    {
+      "line": 455,
+      "label": "their Eq.(32) recovered at u=0: kappa=1.01 unstable",
+      "want": 1.0,
+      "want_src": "1.0",
+      "tol": 0.5,
+      "ulp": 0.05,
+      "ratio": 10.0,
+      "rel_slack_pct": 50.0,
+      "class": "BOOLEAN"
+    },
+    {
+      "line": 458,
+      "label": "our 1/u_c is the asymptotic slope of THEIR stability chart",
+      "want": null,
+      "want_src": "d39[\"asymptotic_slope_limit\"]",
+      "tol": 0.01,
+      "ulp": null,
+      "ratio": null,
+      "rel_slack_pct": null,
+      "class": "NON-LITERAL"
+    },
+    {
+      "line": 29,
+      "label": "f\"Lemma A zero of int e/c, alpha={a} (theory 0.5)\"",
+      "want": 0.5,
+      "want_src": "0.5",
+      "tol": 0.02,
+      "ulp": 0.05,
+      "ratio": 0.39999999999999997,
+      "rel_slack_pct": 4.0,
+      "class": "ROUNDOFF"
+    },
+    {
+      "line": 147,
+      "label": "\"c with \" + tag",
+      "want": 2.32,
+      "want_src": "2.32",
+      "tol": 0.03,
+      "ulp": 0.005,
+      "ratio": 6.0,
+      "rel_slack_pct": 1.293103448275862,
+      "class": "LOOSE"
+    },
+    {
+      "line": 226,
+      "label": "tag + \", mean |err|\"",
+      "want": null,
+      "want_src": "want",
+      "tol": 1.0,
+      "ulp": null,
+      "ratio": null,
+      "rel_slack_pct": null,
+      "class": "NON-LITERAL"
+    },
+    {
+      "line": 273,
+      "label": "\"inside the window, '+' branch edge vs flow, u=%.2f\" % r[\"u\"",
+      "want": null,
+      "want_src": "r[\"flow_edge\"]",
+      "tol": 0.8,
+      "ulp": null,
+      "ratio": null,
+      "rel_slack_pct": null,
+      "class": "NON-LITERAL"
+    },
+    {
+      "line": 277,
+      "label": "\"beyond the window, '+-+' branch edge vs flow, u=%.2f\" % r[\"",
+      "want": null,
+      "want_src": "r[\"flow_edge\"]",
+      "tol": 2.0,
+      "ulp": null,
+      "ratio": null,
+      "rel_slack_pct": null,
+      "class": "NON-LITERAL"
+    },
+    {
+      "line": 296,
+      "label": "\"map edge equals Eq.(12), u=%.2f\" % r[\"u\"]",
+      "want": null,
+      "want_src": "r[\"eq12\"]",
+      "tol": 0.01,
+      "ulp": null,
+      "ratio": null,
+      "rel_slack_pct": null,
+      "class": "NON-LITERAL"
+    },
+    {
+      "line": 303,
+      "label": "\"selected branch has the larger basin, u=%.2f\" % b[\"u\"]",
+      "want": 1.0,
+      "want_src": "1.0",
+      "tol": 0.5,
+      "ulp": 0.05,
+      "ratio": 10.0,
+      "rel_slack_pct": 50.0,
+      "class": "BOOLEAN"
+    },
+    {
+      "line": 383,
+      "label": "\"sigma mean |err|, \" + tag",
+      "want": null,
+      "want_src": "want",
+      "tol": 0.5,
+      "ulp": null,
+      "ratio": null,
+      "rel_slack_pct": null,
+      "class": "NON-LITERAL"
+    }
+  ],
+  "part_b": {
+    "span": {
+      "u_star": 0.306,
+      "u_max_at_span": 0.42839999999999995,
+      "u_c": 0.520494,
+      "margin_pct": 17.693575718452095,
+      "max_span_before_u_c": 0.7009607843137255
+    },
+    "seg_over_L": {
+      "side": 5.0,
+      "L": [
+        0.3,
+        0.45,
+        0.6,
+        0.9
+      ],
+      "ratio": [
+        16.666666666666668,
+        11.11111111111111,
+        8.333333333333334,
+        5.555555555555555
+      ]
+    },
+    "settling": [
+      {
+        "u": 0.19,
+        "root_re": -1.3201470205318822,
+        "root_im": 1.3533770874577662,
+        "decay_per_arclength": 1.3201470205318822,
+        "arclen_to_1pct_in_L": 3.488376759834436
+      },
+      {
+        "u": 0.306,
+        "root_re": -1.1661636686457333,
+        "root_im": 2.2648615263702454,
+        "decay_per_arclength": 1.1661636686457333,
+        "arclen_to_1pct_in_L": 3.948991303541534
+      },
+      {
+        "u": 0.44,
+        "root_re": -0.2905308305663325,
+        "root_im": 2.3388975028638304,
+        "decay_per_arclength": 0.2905308305663325,
+        "arclen_to_1pct_in_L": 15.85088294075786
+      }
+    ],
+    "u_isolated": [
+      {
+        "seg_over_L": 16.7,
+        "u_isolated": 0.44333729635247826
+      },
+      {
+        "seg_over_L": 11.1,
+        "u_isolated": 0.4141535529748942
+      },
+      {
+        "seg_over_L": 8.3,
+        "u_isolated": 0.38898724722422684
+      },
+      {
+        "seg_over_L": 5.6,
+        "u_isolated": 0.3489060523797085
+      }
+    ],
+    "point_audit": [
+      {
+        "block": "alpha_2026-09-",
+        "row": "",
+        "seg_over_L": 8.333333333333334,
+        "u_max": 0.4357773913043478,
+        "u_isolated": 0.38935952451446315,
+        "n_points": 9,
+        "n_over": 2
+      },
+      {
+        "block": "alpha_2026-09-",
+        "row": "",
+        "seg_over_L": 8.333333333333334,
+        "u_max": 0.4357773913043478,
+        "u_isolated": 0.38935952451446315,
+        "n_points": 9,
+        "n_over": 2
+      },
+      {
+        "block": "alpha_2026-09-",
+        "row": "",
+        "seg_over_L": 8.333333333333334,
+        "u_max": 0.4357773913043478,
+        "u_isolated": 0.38935952451446315,
+        "n_points": 9,
+        "n_over": 2
+      },
+      {
+        "block": "alpha_2026-09-",
+        "row": "",
+        "seg_over_L": 8.333333333333334,
+        "u_max": 0.4357773913043478,
+        "u_isolated": 0.38935952451446315,
+        "n_points": 9,
+        "n_over": 2
+      },
+      {
+        "block": "alpha_2026-09-",
+        "row": "",
+        "seg_over_L": 8.333333333333334,
+        "u_max": 0.4357773913043478,
+        "u_isolated": 0.38935952451446315,
+        "n_points": 9,
+        "n_over": 2
+      },
+      {
+        "block": "freq_2026-09-0",
+        "row": "20.0",
+        "seg_over_L": 8.333333333333334,
+        "u_max": 0.5173753846153846,
+        "u_isolated": 0.38935952451446315,
+        "n_points": 9,
+        "n_over": 4
+      },
+      {
+        "block": "freq_2026-09-0",
+        "row": "10.0",
+        "seg_over_L": 8.333333333333334,
+        "u_max": 0.5048309677419355,
+        "u_isolated": 0.38935952451446315,
+        "n_points": 9,
+        "n_over": 4
+      },
+      {
+        "block": "freq_2026-09-0",
+        "row": "5.0",
+        "seg_over_L": 8.333333333333334,
+        "u_max": 0.48892097560975595,
+        "u_isolated": 0.38935952451446315,
+        "n_points": 9,
+        "n_over": 3
+      },
+      {
+        "block": "freq_2026-09-0",
+        "row": "3.3333",
+        "seg_over_L": 8.333333333333334,
+        "u_max": 0.47924996284102345,
+        "u_isolated": 0.38935952451446315,
+        "n_points": 9,
+        "n_over": 3
+      },
+      {
+        "block": "freq_2026-09-0",
+        "row": "2.5",
+        "seg_over_L": 8.333333333333334,
+        "u_max": 0.47275016393442615,
+        "u_isolated": 0.38935952451446315,
+        "n_points": 9,
+        "n_over": 3
+      },
+      {
+        "block": "freq_2026-09-0",
+        "row": "2.0",
+        "seg_over_L": 8.333333333333334,
+        "u_max": 0.46808112676056346,
+        "u_isolated": 0.38935952451446315,
+        "n_points": 9,
+        "n_over": 3
+      },
+      {
+        "block": "lookahead_2026",
+        "row": "0.3",
+        "seg_over_L": 16.666666666666668,
+        "u_max": 0.4357773913043478,
+        "u_isolated": 0.4432115675078128,
+        "n_points": 9,
+        "n_over": 0
+      },
+      {
+        "block": "lookahead_2026",
+        "row": "0.45",
+        "seg_over_L": 11.11111111111111,
+        "u_max": 0.4357773913043478,
+        "u_isolated": 0.41423377667015915,
+        "n_points": 9,
+        "n_over": 1
+      },
+      {
+        "block": "lookahead_2026",
+        "row": "0.6",
+        "seg_over_L": 8.333333333333334,
+        "u_max": 0.4357773913043478,
+        "u_isolated": 0.38935952451446315,
+        "n_points": 9,
+        "n_over": 2
+      },
+      {
+        "block": "lookahead_2026",
+        "row": "0.9",
+        "seg_over_L": 5.555555555555555,
+        "u_max": 0.4357773913043478,
+        "u_isolated": 0.3480185264404092,
+        "n_points": 9,
+        "n_over": 3
+      },
+      {
+        "block": "nulls_2026-09-",
+        "row": "costmap_size",
+        "seg_over_L": 8.333333333333334,
+        "u_max": 0.38908695652173914,
+        "u_isolated": 0.38935952451446315,
+        "n_points": 5,
+        "n_over": 0
+      },
+      {
+        "block": "nulls_2026-09-",
+        "row": "costmap_size",
+        "seg_over_L": 8.333333333333334,
+        "u_max": 0.38908695652173914,
+        "u_isolated": 0.38935952451446315,
+        "n_points": 5,
+        "n_over": 0
+      },
+      {
+        "block": "nulls_2026-09-",
+        "row": "costmap_size",
+        "seg_over_L": 8.333333333333334,
+        "u_max": 0.38908695652173914,
+        "u_isolated": 0.38935952451446315,
+        "n_points": 5,
+        "n_over": 0
+      },
+      {
+        "block": "nulls_2026-09-",
+        "row": "sample_hz",
+        "seg_over_L": 8.333333333333334,
+        "u_max": 0.38908695652173914,
+        "u_isolated": 0.38935952451446315,
+        "n_points": 5,
+        "n_over": 0
+      },
+      {
+        "block": "nulls_2026-09-",
+        "row": "sample_hz",
+        "seg_over_L": 8.333333333333334,
+        "u_max": 0.38908695652173914,
+        "u_isolated": 0.38935952451446315,
+        "n_points": 5,
+        "n_over": 0
+      },
+      {
+        "block": "nulls_2026-09-",
+        "row": "sample_hz",
+        "seg_over_L": 8.333333333333334,
+        "u_max": 0.38908695652173914,
+        "u_isolated": 0.38935952451446315,
+        "n_points": 5,
+        "n_over": 0
+      },
+      {
+        "block": "nulls_2026-09-",
+        "row": "transform_tolerance",
+        "seg_over_L": 8.333333333333334,
+        "u_max": 0.38908695652173914,
+        "u_isolated": 0.38935952451446315,
+        "n_points": 5,
+        "n_over": 0
+      },
+      {
+        "block": "nulls_2026-09-",
+        "row": "transform_tolerance",
+        "seg_over_L": 8.333333333333334,
+        "u_max": 0.38908695652173914,
+        "u_isolated": 0.38935952451446315,
+        "n_points": 5,
+        "n_over": 0
+      },
+      {
+        "block": "nulls_2026-09-",
+        "row": "transform_tolerance",
+        "seg_over_L": 8.333333333333334,
+        "u_max": 0.38908695652173914,
+        "u_isolated": 0.38935952451446315,
+        "n_points": 5,
+        "n_over": 0
+      },
+      {
+        "block": "tsim_2026-09-0",
+        "row": "0.005",
+        "seg_over_L": 8.333333333333334,
+        "u_max": 0.4453969230769231,
+        "u_isolated": 0.38935952451446315,
+        "n_points": 9,
+        "n_over": 2
+      },
+      {
+        "block": "tsim_2026-09-0",
+        "row": "0.01",
+        "seg_over_L": 8.333333333333334,
+        "u_max": 0.44533391304347825,
+        "u_isolated": 0.38935952451446315,
+        "n_points": 9,
+        "n_over": 2
+      },
+      {
+        "block": "tsim_2026-09-0",
+        "row": "0.02",
+        "seg_over_L": 8.333333333333334,
+        "u_max": 0.445211914893617,
+        "u_isolated": 0.38935952451446315,
+        "n_points": 9,
+        "n_over": 2
+      },
+      {
+        "block": "tsim_2026-09-0",
+        "row": "0.05",
+        "seg_over_L": 8.333333333333334,
+        "u_max": 0.44487519999999997,
+        "u_isolated": 0.38935952451446315,
+        "n_points": 9,
+        "n_over": 2
+      },
+      {
+        "block": "tsim_2026-09-0",
+        "row": "0.1",
+        "seg_over_L": 8.333333333333334,
+        "u_max": 0.44439563636363627,
+        "u_isolated": 0.38935952451446315,
+        "n_points": 9,
+        "n_over": 2
+      }
+    ],
+    "points_over_isolation": {
+      "bad": 46,
+      "total": 225,
+      "pct": 20.444444444444443
+    },
+    "chosen": [
+      "sweep points = 9 (5 in blocks)",
+      "seg/L >= 5 (the number 5)",
+      "tail_exclude_m = 3.5",
+      "side = 5.0 m",
+      "alpha set {120,90,60,45,30}"
+    ]
+  }
+}

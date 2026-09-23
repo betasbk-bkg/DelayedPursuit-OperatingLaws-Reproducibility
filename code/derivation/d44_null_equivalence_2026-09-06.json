@@ -1,0 +1,259 @@
+{
+  "block": "nav2_block_nulls_2026-09-06.json",
+  "tau_inject": 0.2,
+  "argmin_J": 0.31,
+  "n_rows": 9,
+  "n_points": 45,
+  "seed": 20260906,
+  "n_mc": 2000,
+  "replicate": {
+    "values": [
+      0.02305,
+      0.02321,
+      0.02311
+    ],
+    "mean": 0.023123333333333333,
+    "sd": 8.082903768654804e-05,
+    "sigma_rel": 0.0034955616701692967,
+    "peak_to_peak_pct": 0.6919417615684031
+  },
+  "rows": [
+    {
+      "knob": "costmap_size",
+      "setting": {
+        "costmap": 3.0,
+        "search_dist": 1.5
+      },
+      "u_parabola": 0.30479821028364,
+      "u_parabola_sd": 0.0008301417023716659,
+      "mc_valid_frac": 1.0,
+      "tau_tot_shapefit": 0.22889360890031818,
+      "tau_tot_sd": 0.0004361605249095375,
+      "shapefit_rms_pct": 1.1001601412876196
+    },
+    {
+      "knob": "costmap_size",
+      "setting": {
+        "costmap": 5.0,
+        "search_dist": 2.5
+      },
+      "u_parabola": 0.31166426385824775,
+      "u_parabola_sd": 0.0010263944877131753,
+      "mc_valid_frac": 1.0,
+      "tau_tot_shapefit": 0.22284893890970447,
+      "tau_tot_sd": 0.0003788097340404273,
+      "shapefit_rms_pct": 0.30381357419659316
+    },
+    {
+      "knob": "costmap_size",
+      "setting": {
+        "costmap": 8.0,
+        "search_dist": 4.0
+      },
+      "u_parabola": 0.3122502224710343,
+      "u_parabola_sd": 0.0010881530789397307,
+      "mc_valid_frac": 1.0,
+      "tau_tot_shapefit": 0.2246274870445504,
+      "tau_tot_sd": 0.00037631586624948025,
+      "shapefit_rms_pct": 0.5489820102247845
+    },
+    {
+      "knob": "sample_hz",
+      "setting": {
+        "sample_hz": 25.0
+      },
+      "u_parabola": 0.31124050404931486,
+      "u_parabola_sd": 0.0010588994385298152,
+      "mc_valid_frac": 1.0,
+      "tau_tot_shapefit": 0.223229237940473,
+      "tau_tot_sd": 0.0003873566353359664,
+      "shapefit_rms_pct": 0.26259888147296473
+    },
+    {
+      "knob": "sample_hz",
+      "setting": {
+        "sample_hz": 50.0
+      },
+      "u_parabola": 0.306272247273928,
+      "u_parabola_sd": 0.001556545640597267,
+      "mc_valid_frac": 1.0,
+      "tau_tot_shapefit": 0.22561891858889116,
+      "tau_tot_sd": 0.00047298804055091487,
+      "shapefit_rms_pct": 0.41865997249502884
+    },
+    {
+      "knob": "sample_hz",
+      "setting": {
+        "sample_hz": 100.0
+      },
+      "u_parabola": 0.3124655611956708,
+      "u_parabola_sd": 0.0010205073766681233,
+      "mc_valid_frac": 1.0,
+      "tau_tot_shapefit": 0.2247163841376553,
+      "tau_tot_sd": 0.0004671071650590952,
+      "shapefit_rms_pct": 0.3549065797912242
+    },
+    {
+      "knob": "transform_tolerance",
+      "setting": {
+        "tol": 0.05
+      },
+      "u_parabola": 0.3120530907986241,
+      "u_parabola_sd": 0.0010659258388152012,
+      "mc_valid_frac": 1.0,
+      "tau_tot_shapefit": 0.22480977164738725,
+      "tau_tot_sd": 0.00036696475637472024,
+      "shapefit_rms_pct": 0.6095067576823066
+    },
+    {
+      "knob": "transform_tolerance",
+      "setting": {
+        "tol": 0.1
+      },
+      "u_parabola": 0.3121922898486715,
+      "u_parabola_sd": 0.0010665592145533182,
+      "mc_valid_frac": 1.0,
+      "tau_tot_shapefit": 0.22702768800971812,
+      "tau_tot_sd": 0.00042855642923974213,
+      "shapefit_rms_pct": 1.7121379382702158
+    },
+    {
+      "knob": "transform_tolerance",
+      "setting": {
+        "tol": 0.3
+      },
+      "u_parabola": 0.31206492927477386,
+      "u_parabola_sd": 0.0010746532439619655,
+      "mc_valid_frac": 1.0,
+      "tau_tot_shapefit": 0.2250017235156821,
+      "tau_tot_sd": 0.00048553499029829327,
+      "shapefit_rms_pct": 0.3168933541229993
+    }
+  ],
+  "expected_range_k3": {
+    "mean": 1.6926944785146008,
+    "sd": 0.8878530706041279
+  },
+  "knobs": {
+    "costmap_size": {
+      "k": 3,
+      "u_parabola": [
+        0.30479821028364,
+        0.31166426385824775,
+        0.3122502224710343
+      ],
+      "u_spread_pct": 2.407206948253943,
+      "u_sigma_mc_pct": 0.31707214510623705,
+      "u_expected_spread_pct": 0.5367062693121079,
+      "u_expected_spread_p95_pct": 1.0997332245833282,
+      "chi2_u": 43.2762784774034,
+      "tau_tot_ms": [
+        228.89360890031818,
+        222.8489389097045,
+        224.6274870445504
+      ],
+      "tau_spread_ms": 6.044669990613705,
+      "tau_sigma_mc_ms": 0.3970953750664817,
+      "tau_expected_spread_ms": 0.6721611488187181,
+      "tau_expected_spread_p95_ms": 1.3772858449696652,
+      "chi2_tau": 114.33898607154379,
+      "verdict": "CHECK"
+    },
+    "sample_hz": {
+      "k": 3,
+      "u_parabola": [
+        0.31124050404931486,
+        0.306272247273928,
+        0.3124655611956708
+      ],
+      "u_spread_pct": 1.997889791096672,
+      "u_sigma_mc_pct": 0.39097174706654875,
+      "u_expected_spread_pct": 0.6617957175147542,
+      "u_expected_spread_p95_pct": 1.3560466498197457,
+      "chi2_u": 12.973136066720135,
+      "tau_tot_ms": [
+        223.229237940473,
+        225.61891858889115,
+        224.7163841376553
+      ],
+      "tau_spread_ms": 2.3896806484181576,
+      "tau_sigma_mc_ms": 0.4424839469819921,
+      "tau_expected_spread_ms": 0.7489901338877655,
+      "tau_expected_spread_p95_ms": 1.534711595929757,
+      "chi2_tau": 16.686982232696245,
+      "verdict": "CHECK"
+    },
+    "transform_tolerance": {
+      "k": 3,
+      "u_parabola": [
+        0.3120530907986241,
+        0.3121922898486715,
+        0.31206492927477386
+      ],
+      "u_spread_pct": 0.044600293910778945,
+      "u_sigma_mc_pct": 0.3425294224942818,
+      "u_expected_spread_pct": 0.5797976621848657,
+      "u_expected_spread_p95_pct": 1.188029261252479,
+      "chi2_u": 0.01045509165102739,
+      "tau_tot_ms": [
+        224.80977164738724,
+        227.02768800971813,
+        225.0017235156821
+      ],
+      "tau_spread_ms": 2.217916362330874,
+      "tau_sigma_mc_ms": 0.4270187253042519,
+      "tau_expected_spread_ms": 0.7228122385448503,
+      "tau_expected_spread_p95_ms": 1.4810720114785316,
+      "chi2_tau": 17.273116894097843,
+      "verdict": "CHECK"
+    }
+  },
+  "mechanism": {
+    "transform_tolerance": {
+      "mechanism": "stale TF permitted up to the tolerance -> extra loop delay",
+      "sweep_s": 0.25,
+      "predicted_shift_pct_at_coupling_1": 52.08333333333333,
+      "observed_shift_pct": 0.044600293910778945,
+      "coupling_bound": 0.0008563256430869558,
+      "leaked_delay_bound_ms": 2.217916362330874
+    },
+    "sample_hz": {
+      "mechanism": "measurement only (run_point.py:98 sets sample_dt); spatial quadrature error of the RMSE integral, O((v/f/L)^2)",
+      "delta_s_m": [
+        0.0323470717397883,
+        0.01617353586989415,
+        0.008086767934947075
+      ],
+      "predicted_bias_pct": [
+        0.2906480694830586,
+        0.07266201737076465,
+        0.018165504342691163
+      ],
+      "predicted_spread_pct": 0.27248256514036745,
+      "observed_spread_pct": 1.997889791096672,
+      "monotone_in_f": false
+    },
+    "costmap_size": {
+      "mechanism": "local costmap truncates the transformed plan; the effect must vanish once the map contains the lookahead point, i.e. SATURATE",
+      "sizes": [
+        3.0,
+        5.0,
+        8.0
+      ],
+      "u": [
+        0.30479821028364,
+        0.31166426385824775,
+        0.3122502224710343
+      ],
+      "tau_tot_ms": [
+        228.89360890031818,
+        222.8489389097045,
+        224.6274870445504
+      ],
+      "step_3_to_5_pct": 2.252655475968281,
+      "step_5_to_8_pct": 0.1880095605228096,
+      "saturation_ratio": 0.08346130268411134
+    }
+  },
+  "all_pass": false
+}

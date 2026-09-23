@@ -1,0 +1,174 @@
+{
+ "u_jump_mean": 1.1898775000000001,
+ "u_jump_range": [
+  0.7374999999999999,
+  1.3649999999999998
+ ],
+ "rows": [
+  {
+   "tau": 0.1,
+   "jump_between": [
+    4.35,
+    4.5
+   ],
+   "v_jump": 4.425,
+   "u_jump": 0.7374999999999999,
+   "sigma_before": 8.565401550475482,
+   "sigma_after": 9.252919861475984,
+   "jump_deg": 0.6875183110005025,
+   "jump_z": 4.862732471697577,
+   "v_obs": 3.93,
+   "u_obs": 0.655,
+   "locked": {
+    "v_min": 4.35,
+    "J_min": 0.09010897959159518,
+    "edge_of_side": true
+   },
+   "piecewise_prediction": {
+    "side": "locked",
+    "v_pred": 4.35,
+    "edge_of_side": true,
+    "rel_obs": -0.09655172413793092
+   },
+   "v_direct_rmse": 4.015145224475603,
+   "direct_minus_jump": -0.40985477552439686,
+   "obs_minus_jump": -0.49499999999999966
+  },
+  {
+   "tau": 0.433,
+   "jump_between": [
+    3.6,
+    3.75
+   ],
+   "v_jump": 3.675,
+   "u_jump": 1.2243875,
+   "sigma_before": 8.673139307752356,
+   "sigma_after": 10.541377984418094,
+   "jump_deg": 1.8682386766657384,
+   "jump_z": 6.9937592835065825,
+   "v_obs": 2.13,
+   "u_obs": 0.709645,
+   "locked": {
+    "v_min": 2.111278195488722,
+    "J_min": 0.09962377307733129,
+    "edge_of_side": false
+   },
+   "unlocked": {
+    "v_min": 3.75,
+    "J_min": 0.22207445020359937,
+    "edge_of_side": true
+   },
+   "piecewise_prediction": {
+    "side": "locked",
+    "v_pred": 2.111278195488722,
+    "edge_of_side": false,
+    "rel_obs": 0.008867521367521182
+   },
+   "v_direct_rmse": 2.2681053022954485,
+   "direct_minus_jump": -1.4068946977045513,
+   "obs_minus_jump": -1.545
+  },
+  {
+   "tau": 0.6,
+   "jump_between": [
+    3.0,
+    3.15
+   ],
+   "v_jump": 3.075,
+   "u_jump": 1.2812500000000002,
+   "sigma_before": 8.934787140813196,
+   "sigma_after": 10.176313417270933,
+   "jump_deg": 1.241526276457737,
+   "jump_z": 3.628922731864988,
+   "v_obs": 1.76,
+   "u_obs": 0.7333333333333334,
+   "locked": {
+    "v_min": 1.7142857142857144,
+    "J_min": 0.09797084196919022,
+    "edge_of_side": false
+   },
+   "unlocked": {
+    "v_min": 3.15,
+    "J_min": 0.23347809402200093,
+    "edge_of_side": true
+   },
+   "piecewise_prediction": {
+    "side": "locked",
+    "v_pred": 1.7142857142857144,
+    "edge_of_side": false,
+    "rel_obs": 0.026666666666666596
+   },
+   "v_direct_rmse": 1.7387364589925027,
+   "direct_minus_jump": -1.3362635410074974,
+   "obs_minus_jump": -1.3150000000000002
+  },
+  {
+   "tau": 1.0,
+   "jump_between": [
+    2.1,
+    2.25
+   ],
+   "v_jump": 2.175,
+   "u_jump": 1.3412499999999996,
+   "sigma_before": 9.316887992962375,
+   "sigma_after": 10.506010601065825,
+   "jump_deg": 1.1891226081034496,
+   "jump_z": 4.720472618351418,
+   "v_obs": 1.218,
+   "u_obs": 0.7510999999999999,
+   "locked": {
+    "v_min": 1.1796992481203008,
+    "J_min": 0.09897758732726872,
+    "edge_of_side": false
+   },
+   "unlocked": {
+    "v_min": 2.25,
+    "J_min": 0.26657225242291155,
+    "edge_of_side": true
+   },
+   "piecewise_prediction": {
+    "side": "locked",
+    "v_pred": 1.1796992481203008,
+    "edge_of_side": false,
+    "rel_obs": 0.03246653919694066
+   },
+   "v_direct_rmse": 1.1947059522838854,
+   "direct_minus_jump": -0.9802940477161144,
+   "obs_minus_jump": -0.9569999999999999
+  },
+  {
+   "tau": 1.5,
+   "jump_between": [
+    1.5,
+    1.65
+   ],
+   "v_jump": 1.575,
+   "u_jump": 1.3649999999999998,
+   "sigma_before": 8.995325321358044,
+   "sigma_after": 10.743871837004058,
+   "jump_deg": 1.748546515646014,
+   "jump_z": 11.471306618895383,
+   "v_obs": 0.869,
+   "u_obs": 0.7531333333333332,
+   "locked": {
+    "v_min": 0.8624060150375938,
+    "J_min": 0.09831828361840037,
+    "edge_of_side": false
+   },
+   "unlocked": {
+    "v_min": 1.65,
+    "J_min": 0.2930782588312192,
+    "edge_of_side": true
+   },
+   "piecewise_prediction": {
+    "side": "locked",
+    "v_pred": 0.8624060150375938,
+    "edge_of_side": false,
+    "rel_obs": 0.0076460331299042575
+   },
+   "v_direct_rmse": 0.8720102782946169,
+   "direct_minus_jump": -0.7029897217053831,
+   "obs_minus_jump": -0.706
+  }
+ ]
+}

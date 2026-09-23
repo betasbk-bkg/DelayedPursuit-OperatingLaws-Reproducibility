@@ -1,0 +1,28 @@
+{
+  "replicate_file": "C:\\Users\\betas\\Downloads\\derivation\\nav2_block_replicate_2026-09-06.json",
+  "n_rep": 5,
+  "u_mean": 0.30882204367040067,
+  "u_sd_pct": 1.5224772606610126,
+  "u_range_pct": 3.149221781045088,
+  "tau_mean_ms": 223.8574346940519,
+  "tau_sd_ms": 2.1073097935303284,
+  "tau_range_ms": 4.90002273753451,
+  "knobs": {
+    "costmap_size": {
+      "spread_pct": 2.407206948253943,
+      "ratio_to_replicate": 0.7643815252208427,
+      "verdict": "PASS"
+    },
+    "sample_hz": {
+      "spread_pct": 1.997889791096672,
+      "ratio_to_replicate": 0.6344074600022804,
+      "verdict": "PASS"
+    },
+    "transform_tolerance": {
+      "spread_pct": 0.044600293910778945,
+      "ratio_to_replicate": 0.014162322316968757,
+      "verdict": "PASS"
+    }
+  },
+  "all_pass": true
+}

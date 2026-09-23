@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Reproduction materials for the reference engine of this study."
+type: software
+title: "Crowd-control simulation engine — reproduction materials"
+authors:
+  - name: "BongKeun Song"
+version: "1.0.0"
+date-released: "2026-05-19"
+license: "CC-BY-4.0"
+preferred-citation:
+  type: article
+  title: "Agent speed explains more tracking error variance than aggregation method in simulated crowd-sourced continuous control"
+  authors:
+    - family-names: "Song"
+      given-names: "BongKeun"
+  journal: "Scientific Reports"
+  volume: 16
+  number: 29469
+  year: 2026
+  doi: "10.1038/s41598-026-72284-6"

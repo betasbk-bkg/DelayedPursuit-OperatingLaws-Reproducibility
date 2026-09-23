@@ -1,0 +1,21 @@
+Verifying this package
+======================
+
+1. File integrity.  MANIFEST.sha256 lists a SHA-256 for every file in this package.
+
+     python - <<'EOF'
+     import hashlib, io, os
+     bad = []
+     for line in io.open('MANIFEST.sha256', encoding='utf-8'):
+         want, rel = line.rstrip('\n').split('  ', 1)
+         got = hashlib.sha256(open(rel, 'rb').read()).hexdigest()
+         if got != want: bad.append(rel)
+     print('mismatches:', len(bad))
+     EOF
+
+2. Results.  The commands in README.md, section "Reproducing the results", re-run the analyses
+   that produce the paper's headline numbers and write their JSON beside the scripts.  Each of
+   those scripts prints what it computed, so the printed value can be read against the paper.
+
+3. What is not here.  The manuscript text is not redistributed with the package, so the package
+   contains no script that checks text against numbers.  The numbers themselves are all here.

@@ -1,0 +1,43 @@
+{
+  "lap_m": 20.0,
+  "total_m": 78.0,
+  "window_laps": 2.225,
+  "window_laps_int": 2,
+  "per_speed": [
+    {
+      "v": 0.6143,
+      "rmse_spread_pct": 2.5676925073233345,
+      "elapsed_span_s": 0.0500178337097168,
+      "sample_span": 2,
+      "ctrl_periods": 1.000356674194336
+    },
+    {
+      "v": 0.7167,
+      "rmse_spread_pct": 2.169020692965444,
+      "elapsed_span_s": 0.10057973861694336,
+      "sample_span": 5,
+      "ctrl_periods": 2.011594772338867
+    },
+    {
+      "v": 0.8191,
+      "rmse_spread_pct": 0.31438028329197876,
+      "elapsed_span_s": 0.10010433197021484,
+      "sample_span": 5,
+      "ctrl_periods": 2.002086639404297
+    },
+    {
+      "v": 0.9215,
+      "rmse_spread_pct": 2.923268467761235,
+      "elapsed_span_s": 0.06476783752441406,
+      "sample_span": 3,
+      "ctrl_periods": 1.2953567504882812
+    },
+    {
+      "v": 1.0239,
+      "rmse_spread_pct": 0.1425401892283946,
+      "elapsed_span_s": 0.006847858428955078,
+      "sample_span": 0,
+      "ctrl_periods": 0.13695716857910156
+    }
+  ]
+}

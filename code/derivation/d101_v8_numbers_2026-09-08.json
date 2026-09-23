@@ -1,0 +1,290 @@
+{
+  "quantities": {
+    "u* heading-servo": {
+      "value": "0.499496",
+      "source": "d38",
+      "note": "Theorem 1 constant 1/2, error -0.10%"
+    },
+    "u* curvature-command": {
+      "value": "0.306034",
+      "source": "d38",
+      "note": ""
+    },
+    "stability limit heading-servo": {
+      "value": "1.570796",
+      "source": "d38",
+      "note": "pi/2"
+    },
+    "stability limit curvature-command": {
+      "value": "0.520494",
+      "source": "d38",
+      "note": ""
+    },
+    "ratio of the two stability limits": {
+      "value": "3.018",
+      "source": "d38",
+      "note": "the two classes differ by this factor -- one derivation, two systems"
+    },
+    "RPP pooled u* (6 blocks)": {
+      "value": "0.3029 +- 5.1%",
+      "source": "d56",
+      "note": "vs derived 0.306034: -1.0%"
+    },
+    "  block E2 freq (seg/L 8.3)": {
+      "value": "0.2942 (n=6, spread 17.7%)",
+      "source": "d56",
+      "note": ""
+    },
+    "  block E3 tsim": {
+      "value": "0.3072 (n=5, spread 10.2%)",
+      "source": "d56",
+      "note": ""
+    },
+    "  block E4 lookahead": {
+      "value": "0.3130 (n=4, spread 0.6%)",
+      "source": "d56",
+      "note": ""
+    },
+    "  block E5 alpha (a<=90 only)": {
+      "value": "0.3073 (n=4, spread 4.5%)",
+      "source": "d56",
+      "note": ""
+    },
+    "  block E6 nulls": {
+      "value": "0.3106 (n=9, spread 2.5%)",
+      "source": "d56",
+      "note": ""
+    },
+    "  block E7 replicate": {
+      "value": "0.3088 (n=5, spread 3.1%)",
+      "source": "d56",
+      "note": ""
+    },
+    "  block E8 freq_iso t=.10": {
+      "value": "0.2898 (n=6, spread 11.0%)",
+      "source": "d56",
+      "note": ""
+    },
+    "  block E11a freq_iso t=.05": {
+      "value": "0.3005 (n=6, spread 21.5%)",
+      "source": "d56",
+      "note": ""
+    },
+    "  block E11b freq_iso t=.20": {
+      "value": "0.2975 (n=6, spread 11.5%)",
+      "source": "d56",
+      "note": ""
+    },
+    "s_tau  (pure transport delay)": {
+      "value": "0.9632 [0.9417, 0.9895]",
+      "source": "d62_tau_iso_coefficient",
+      "note": ""
+    },
+    "s_ctrl (controller hold)": {
+      "value": "1.0814 [1.02, 1.16]",
+      "source": "d48_freq_iso_interval",
+      "note": "interval EXCLUDES 1.000"
+    },
+    "s_act  (first-order actuator lag)": {
+      "value": "1.0614 [1.02, 1.12]",
+      "source": "d48_actuator",
+      "note": "interval EXCLUDES 1.000"
+    },
+    "s_sim  (plant hold, upstream)": {
+      "value": "1.2626 [1.08, 1.60]",
+      "source": "d48_tsim_iso",
+      "note": "interval EXCLUDES 1.000"
+    },
+    "s_sim  (plant hold, midpoint)": {
+      "value": "0.7191 [0.70, 0.86]",
+      "source": "d48_tsim_iso_midpoint",
+      "note": "interval EXCLUDES 1.000"
+    },
+    "max_steer 0.00 rad (kappa_max inf)": {
+      "value": "u* 0.3083",
+      "source": "nav2_bicycle",
+      "note": "parabola"
+    },
+    "max_steer 1.20 rad (kappa_max 5.144)": {
+      "value": "u* 0.3082",
+      "source": "nav2_bicycle",
+      "note": "parabola"
+    },
+    "max_steer 1.00 rad (kappa_max 3.115)": {
+      "value": "u* 0.3047",
+      "source": "nav2_bicycle",
+      "note": "parabola"
+    },
+    "max_steer 0.85 rad (kappa_max 2.277)": {
+      "value": "u* 0.2494",
+      "source": "nav2_bicycle",
+      "note": "parabola"
+    },
+    "max_steer 0.70 rad (kappa_max 1.685)": {
+      "value": "u* 0.1884",
+      "source": "nav2_bicycle",
+      "note": "EDGE"
+    },
+    "max_steer 0.55 rad (kappa_max 1.226)": {
+      "value": "u* 0.1884",
+      "source": "nav2_bicycle",
+      "note": "EDGE"
+    },
+    "d97 self-test: (A,B)=(2,0) vs d38": {
+      "value": "4.44e-16",
+      "source": "d97",
+      "note": "the family reduces to the RPP integrator exactly"
+    },
+    "d97 RPP anchor u* / u_c": {
+      "value": "0.3100 / 0.5202",
+      "source": "d97",
+      "note": "published 0.306034 / 0.520494"
+    },
+    "decomposition (A,B)=(6,0)": {
+      "value": "0.0980 [interior]",
+      "source": "d97",
+      "note": "graceful's gain WITHOUT its tangent feedforward: the optimum survives"
+    },
+    "d99 acceptance: RPP through the exact engine": {
+      "value": "0.2800",
+      "source": "d99",
+      "note": "known 0.3060; the engine is only allowed to predict after reproducing this"
+    },
+    "d99 prediction k_phi 0.5": {
+      "value": "u* 0.1118",
+      "source": "d99",
+      "note": ""
+    },
+    "d99 prediction k_phi 1.0": {
+      "value": "u* 0.0778",
+      "source": "d99",
+      "note": ""
+    },
+    "d99 prediction k_phi 2.0": {
+      "value": "no interior optimum",
+      "source": "d99",
+      "note": ""
+    },
+    "d99 prediction k_phi 3.0": {
+      "value": "no interior optimum",
+      "source": "d99",
+      "note": ""
+    },
+    "d99 prediction k_phi 5.0": {
+      "value": "no interior optimum",
+      "source": "d99",
+      "note": ""
+    },
+    "measured k_phi 0.5 (A 4, B 1)": {
+      "value": "u* 0.1244 [0.1180, 0.1462]",
+      "source": "d100",
+      "note": "predicted 0.1118"
+    },
+    "measured k_phi 1.0 (A 4, B 2)": {
+      "value": "u* 0.0715 [0.0715, 0.0847]",
+      "source": "d100",
+      "note": "predicted 0.0778"
+    },
+    "measured k_phi 2.0 (A 5, B 4)": {
+      "value": "no interior optimum",
+      "source": "d100",
+      "note": "predicted none"
+    },
+    "measured k_phi 3.0 (A 6, B 6)": {
+      "value": "no interior optimum",
+      "source": "d100",
+      "note": "predicted none"
+    },
+    "pre-registered binary calls correct": {
+      "value": "4 of 4",
+      "source": "d100",
+      "note": ""
+    },
+    "Stanley (k x tau grid): located optima": {
+      "value": "0 of 9",
+      "source": "d94",
+      "note": "RMSE is monotone in v at every cell"
+    },
+    "d85 run used": {
+      "value": "MC=20, 51 speeds 1.0-3.5",
+      "source": "d85",
+      "note": "the MC=10 narrow-grid run is superseded: it put the crowd circle outside its grid"
+    },
+    "circle / deterministic": {
+      "value": "u* 0.5164 (narrow, 3 pts)",
+      "source": "d85",
+      "note": ""
+    },
+    "circle / crowd": {
+      "value": "u* 0.7206 (bowl, 51 pts)",
+      "source": "d85",
+      "note": ""
+    },
+    "ellipse / deterministic": {
+      "value": "u* 0.5103 (bowl, 10 pts)",
+      "source": "d85",
+      "note": ""
+    },
+    "ellipse / crowd": {
+      "value": "u* 0.5256 (bowl, 51 pts)",
+      "source": "d85",
+      "note": ""
+    },
+    "circle: vote-layer shift": {
+      "value": "+39.5%",
+      "source": "d85",
+      "note": "crowd 0.7206 vs published 0.7109 = +1.4%"
+    },
+    "ellipse: vote-layer shift": {
+      "value": "+3.0%",
+      "source": "d85",
+      "note": "crowd 0.5256 vs published 0.5620 = -6.5%"
+    },
+    "shift at tau 100 ms": {
+      "value": "32.3% (turn/vote 0.158 cells)",
+      "source": "d90",
+      "note": "u_det 0.5195 -> u_crowd 0.6874"
+    },
+    "shift at tau 200 ms": {
+      "value": "36.7% (turn/vote 0.125 cells)",
+      "source": "d90",
+      "note": "u_det 0.5195 -> u_crowd 0.7099"
+    },
+    "shift at tau 433 ms": {
+      "value": "39.3% (turn/vote 0.082 cells)",
+      "source": "d90",
+      "note": "u_det 0.5133 -> u_crowd 0.7147"
+    },
+    "shift at tau 1000 ms": {
+      "value": "42.1% (turn/vote 0.044 cells)",
+      "source": "d90",
+      "note": "u_det 0.5045 -> u_crowd 0.7171"
+    },
+    "lock-in: k_peak ~ v^s": {
+      "value": "-0.9566",
+      "source": "d95",
+      "note": "a lock-in requires -1"
+    },
+    "lock-in: k_obs / k_pred": {
+      "value": "1.0237",
+      "source": "d95",
+      "note": "measured on the main paper's own recorded autocorrelation data"
+    },
+    "stadium, R/L >= 1": {
+      "value": "0.5083 +- 0.0036 (n=9)",
+      "source": "d84",
+      "note": "R/L 1-6 x S/L 2.5-20"
+    },
+    "stadium, R/L = 0.5": {
+      "value": "u* 0.4529",
+      "source": "d84",
+      "note": "below the effective boundary R/L = 1: the corner regime begins"
+    },
+    "stadium, R/L = 0.8": {
+      "value": "u* 0.4988",
+      "source": "d84",
+      "note": "below the effective boundary R/L = 1: the corner regime begins"
+    }
+  },
+  "not_read": []
+}
