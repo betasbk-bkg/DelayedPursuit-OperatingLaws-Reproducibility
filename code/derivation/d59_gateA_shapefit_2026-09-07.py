@@ -35,7 +35,16 @@ import zipfile
 import numpy as np
 from scipy.optimize import least_squares
 
-ZIP = pathlib.Path(r'C:\Users\betas\Downloads\crowd_control_engine (4).zip')
+ZIP = pathlib.Path(__file__).resolve().parents[2] / "engine" / "crowd_control_engine"   # the engine as it ships in this package
+
+
+class _DirAsZip:                       # the engine ships unpacked here; read its files the same way
+    def __init__(self, root):
+        self.root = pathlib.Path(root)
+
+    def read(self, name):
+        return (self.root.parent / name).read_bytes()
+
 HERE = pathlib.Path(__file__).parent
 LOOK = 2.0
 WIN, DT, SMOOTH = 0.3, 1.0 / 60.0, 0.2
@@ -61,7 +70,7 @@ def make_J(plant):
 
 
 def load_curves():
-    z = zipfile.ZipFile(ZIP)
+    z = _DirAsZip(ZIP)
     d = json.loads(z.read('crowd_control_engine/unified_vstar_results.json'))
     speeds = np.array(d['params']['speeds'], float)
     out = {}

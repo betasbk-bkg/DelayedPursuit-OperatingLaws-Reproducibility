@@ -2,14 +2,14 @@
 """
 d103 -- refit the corner law, because three independent legs cannot share an r².
 
-THE SUSPICION.  The manuscript states
+CONTEXT.  An earlier draft of the manuscript stated
 
     u*(alpha) = 0.511 cos^0.88(alpha/2),   r^2 = 0.9976
 
 "measured over three legs".  The source table reports amplitudes 0.5122, 0.5128
 and 0.5071 and exponents 0.921, 0.857 and 0.866 for those legs -- three visibly
 different fits -- and then the SAME r^2 = 0.9976 to four decimals for all three.
-An independent auditor flagged that as implausible and could not find the script
+That value was flagged as implausible in review, and the script behind it could not be found
 that produced the table.  Three fits to different data with different parameters
 agreeing to the fourth decimal of r^2 is a transcription signature, not a
 coincidence.
@@ -118,7 +118,7 @@ def main():
         As = np.array([x['A'] for x in loc])
         r2s = [x['r2_log'] for x in loc]
         print('\n  across the three legs, located rows only:')
-        print('    q = %.4f +- %.4f   (the manuscript says 0.88 +- 0.035)'
+        print('    q = %.4f +- %.4f   (the earlier draft said 0.88 +- 0.035)'
               % (qs.mean(), qs.std(ddof=1)))
         print('    A = %.4f +- %.4f   (the manuscript says 0.511)'
               % (As.mean(), As.std(ddof=1)))

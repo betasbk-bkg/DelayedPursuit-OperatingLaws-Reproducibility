@@ -1,12 +1,13 @@
 # How to cite
 
-**The package** (this release, and all versions through the concept DOI):
+**The package.** Cite it through the archive record's concept DOI — the one shown as *Cite all
+versions* — which resolves to the newest release; each release also carries its own version DOI.
 
-> BongKeun Song. *Two-Regime Operating Laws for Optimal Speed in Delayed and Quantized Pursuit Control — Reproduction Package*, version 1.0.0. Zenodo (2026). <CONCEPT_DOI>
+> BongKeun Song. *Two-Regime Operating Laws for Optimal Speed in Delayed and Quantized Pursuit Control — Reproduction Package*, version 1.0.0 (2026).
 
 **The paper** the package reproduces:
 
-> BongKeun Song. *Two-Regime Operating Laws for Optimal Speed in Delayed and Quantized Pursuit Control*. Nonlinear Dynamics (under consideration, 2026).
+> BongKeun Song. *Two-Regime Operating Laws for Optimal Speed in Delayed and Quantized Pursuit Control* (2026).
 
-The concept DOI above resolves to the newest version of the package; each release also has its
-own version DOI. `CITATION.cff` carries the same information in machine-readable form.
+`CITATION.cff` carries the same information in machine-readable form. The concept DOI is written
+into it from the release after this one, because an archive assigns that DOI at first publication.

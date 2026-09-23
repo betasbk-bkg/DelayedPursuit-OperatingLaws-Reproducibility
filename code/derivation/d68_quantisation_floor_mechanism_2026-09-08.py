@@ -45,7 +45,7 @@ import sys
 
 import numpy as np
 
-REPO = pathlib.Path(r'C:\Users\betas\Downloads\_letg_main_read\crowd_control_engine')
+REPO = pathlib.Path(__file__).resolve().parents[2] / "engine" / "crowd_control_engine"   # the engine as it ships in this package
 sys.path.insert(0, str(REPO))
 import simulation_main as sm            # noqa: E402
 

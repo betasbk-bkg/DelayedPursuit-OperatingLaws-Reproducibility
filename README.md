@@ -3,10 +3,9 @@
 Reproduction package — version 1.0.0
 
 - **Author:** BongKeun Song
-- **Affiliation:** Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU), Faculty of Engineering, Erlangen, Germany
+- **Affiliation:** Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU), Erlangen, Germany
 - **Corresponding author:** bongkeun.song@fau.de
-- **Journal:** Nonlinear Dynamics (under consideration, 2026)
-- **Package DOI (concept, all versions):** <CONCEPT_DOI>
+- **Package DOI:** see the *Cite all versions* box on this package's archive record; the concept DOI is stable across releases and is written into `CITATION.cff` from the next release on
 
 This package contains the code, the stored simulation results, the third-party-controller harness and
 the reference engine behind the paper. It does **not** contain the manuscript: the article text is
@@ -16,7 +15,7 @@ distributed by the journal, and nothing here depends on having it.
 
 ```
 code/                    analysis and experiment scripts
-  derivation/            the derivation series: 152 scripts and 211 stored result files
+  derivation/            the derivation series: 153 scripts and 213 stored result files
   nav2/                  the harness that drives the third-party navigation stack
 data/                    stored results of the reference-system experiment series (phase1-phase15)
 figures/                 the figures as the paper prints them, drawn by the scripts in code/
@@ -50,9 +49,10 @@ prints what it computed.
 | command | what it reproduces |
 |---|---|
 | `python d131_corner_energy_converged_2026-09-23.py` | the two plant-class constants, integrated to convergence: u* = 0.4984 (heading command) and 0.3078 (curvature command), with the sign study and the step-size refinement that supersede the earlier Euler values |
-| `python d56_cross_block_consistency_2026-09-07.py` | the pooled third-party margin, u* = 0.302908 |
-| `python d102_relocate_nav2_2026-09-13.py` | the three locators (three-point parabola, whole-bowl fit, symmetric window) and the spread between them |
+| `python d56_cross_block_consistency_2026-09-07.py` | the cross-block consistency of the third-party runs; its three-point locator gives 0.302908, and the paper quotes the symmetric-window value 0.2949 (see d133) |
+| `python d133_relocate_nav2_converged_2026-09-23.py` | the three locators (three-point parabola, whole-bowl fit, symmetric window), and their spread against the converged constant: −1.6%, −7.7%, −4.2% |
 | `python d103_corner_law_refit_2026-09-13.py` | the corner exponent and its interval |
+| `python d134_graceful_predictions_recomputed_2026-09-23.py` | every prediction in the second controller's table, recomputed from the exact-law engine and compared with the record |
 | `python d107i_orbit_structure_summary_2026-09-13.py` | the existence band of the two periodic orbits and the closed forms for its edges |
 | `python d119d_birth_multiplier_closed_form_2026-09-14.py` | the border-fold points, including the exact 4/7 |
 | `python d127_closed_form_chain_margin_2026-09-14.py` | the quantized operating margin u* = 0.7475 and the 4.1% mean error against the measured optima |

@@ -1,0 +1,75 @@
+{
+  "look_ahead_configured": 0.6,
+  "v_grid": [
+    0.2,
+    0.30000000000000004,
+    0.4,
+    0.5,
+    0.6000000000000001,
+    0.7,
+    0.8,
+    0.9000000000000001,
+    1.0,
+    1.1,
+    1.2,
+    1.3,
+    1.4000000000000001,
+    1.5,
+    1.6,
+    1.7,
+    1.8
+  ],
+  "rows": [
+    {
+      "k_phi": 0.5,
+      "k_delta": 2.0,
+      "tau_tot": 0.1325,
+      "how": "bowl",
+      "u_recomputed": 0.11180719941396851,
+      "u_on_record": 0.1118,
+      "match": true,
+      "provenance": "registered in advance"
+    },
+    {
+      "k_phi": 2.0,
+      "k_delta": 1.0,
+      "tau_tot": 0.13,
+      "how": "bowl",
+      "u_recomputed": 0.12432187535412342,
+      "u_on_record": 0.1243,
+      "match": true,
+      "provenance": "the plugin's declared gains, added later"
+    },
+    {
+      "k_phi": 1.0,
+      "k_delta": 2.0,
+      "tau_tot": 0.1325,
+      "how": "bowl",
+      "u_recomputed": 0.07784866613226787,
+      "u_on_record": 0.0778,
+      "match": true,
+      "provenance": "registered in advance"
+    },
+    {
+      "k_phi": 2.0,
+      "k_delta": 2.0,
+      "tau_tot": 0.1325,
+      "how": "EDGE_LOW",
+      "u_recomputed": null,
+      "u_on_record": null,
+      "match": true,
+      "provenance": "registered in advance"
+    },
+    {
+      "k_phi": 3.0,
+      "k_delta": 2.0,
+      "tau_tot": 0.1325,
+      "how": "EDGE_LOW",
+      "u_recomputed": null,
+      "u_on_record": null,
+      "match": true,
+      "provenance": "registered in advance"
+    }
+  ],
+  "all_match": true
+}

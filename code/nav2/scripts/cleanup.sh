@@ -1,5 +1,5 @@
 #!/bin/bash
-# Kill every this study's Nav2 runs process from a previous run, by PID.
+# Kill every this study and Nav2 process from a previous run, by PID.
 #
 # WHY NOT pkill -x:  the loopback simulator and the delay node are Python nodes,
 # so their process NAME is `python3`, not `loopback_simulator`.  `pkill -x

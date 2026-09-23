@@ -7,7 +7,7 @@ The simulation engine used as the reference system of
 and, earlier, by the author's study published as *Scientific Reports* **16**, 29469 (2026),
 https://doi.org/10.1038/s41598-026-72284-6, whose citation metadata is in `CITATION.cff`.
 
-> Author: BongKeun Song, Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU), Faculty of Engineering, Erlangen, Germany (bongkeun.song@fau.de).
+> Author: BongKeun Song, Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU), Erlangen, Germany (bongkeun.song@fau.de).
 
 This repository contains the simulation code and raw experimental outputs (JSON) supporting the manuscript. Approximately 33,200 Monte Carlo simulation runs across seven experiments are reproduced by the scripts below.
 

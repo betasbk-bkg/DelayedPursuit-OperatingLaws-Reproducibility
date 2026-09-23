@@ -49,7 +49,7 @@ import numpy as np
 from scipy.interpolate import splev, splprep
 from scipy.special import lambertw
 
-REPO = pathlib.Path(r'C:\Users\betas\Downloads\_letg_main_read\crowd_control_engine')
+REPO = pathlib.Path(__file__).resolve().parents[2] / "engine" / "crowd_control_engine"   # the engine as it ships in this package
 HERE = pathlib.Path(__file__).parent
 
 LOOK = 2.0

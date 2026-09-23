@@ -6,9 +6,9 @@ Verdict: `d100`. Block: `experiment.py --block graceful`, 113.6 min, 41 runs.
 
 ---
 
-## 1. The blocker was mine, and the error message named the wrong cause
+## 1. The blocker, and why the error message named the wrong cause
 
-`DAY_2026-09-08.md` listed this controller as failing with
+The run log listed this controller as failing with
 `Collision detected in trajectory`, with the costmap suspected. It was neither.
 
 `graceful_controller.cpp:200-222` picks a motion target by walking the plan
@@ -106,7 +106,7 @@ shipped speed schedule the swept parameter is not the speed, and the ratio is no
 even constant, so no single `u` describes a row. The shipped configuration is
 kept as a control row and reported at its measured speed.
 
-## 6. Corrections made while doing this
+## 6. Corrections made in the course of this block
 
 * **The bowl estimator is biased on these curves.** It fits every point within
   `factor x min`; that is unbiased only when the selection is symmetric about the
@@ -125,7 +125,7 @@ kept as a control row and reported at its measured speed.
   one.
 * **The noise threshold used the wrong quantity.** The 1.269% figure is the
   row-to-row spread of the `u*` *extraction*; the dip test compares RMSE
-  *points*, whose measured noise is 0.7%. `CRITERIA_AUDIT` line 30 records
+  *points*, whose measured noise is 0.7%. the criteria record notes
   swapping these two as an existing defect in this project; this nearly repeated
   it.
 * **Reported `u* = 0.1118` as "−5%" once**, from the biased bowl value. With the
@@ -162,7 +162,7 @@ than burying:
   say the same thing. The measurement is weak on its own terms (n = 2 per cell,
   three cells, 3 degrees of freedom) and is used anyway, because a weak
   measurement of the right quantity beats a precise measurement of a different
-  one — the reasoning `CRITERIA_AUDIT` line 30 already records for this project.
+  one — the reasoning the criteria record already notes.
 * **The reproducibility unit is the launch, not the point.** Two repeats inside
   one launch agreed to 0.4% at `v = 0.4775`, while the same speed differed by
   4.7% between launches. Comparisons within a row (one launch) are therefore

@@ -120,7 +120,7 @@ def launch(tau, freq=FREQ_DEFAULT, tsim=TSIM_DEFAULT, lookahead=L_DEFAULT,
         simsel += f'wheelbase:={wheelbase} max_steer:={max_steer} '
     elif max_steer:
         raise ValueError('max_steer requires --sim-exe loopback_bicycle')
-    sh(f'setsid nohup ros2 launch letg2_nav2_validation pursuit_stack.launch.py '
+    sh(f'setsid nohup ros2 launch letg2_nav2_validation letg2_stack.launch.py '
        f'params_file:={pf} delay_sec:={tau} update_duration:={tsim} {simsel}'
        f'> {log} 2>&1 < /dev/null &')
     t0 = time.time()

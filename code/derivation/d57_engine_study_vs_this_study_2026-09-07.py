@@ -31,13 +31,13 @@ This script settles it on the reference engine's own numbers:
   2. ask where the two laws diverge enough to be separated;
   3. test the regime question directly: a quantisation-floor-dominated optimum
      has a tau-INDEPENDENT RMSE_min (the reference engine measures CV = 1.7%), whereas a
-     lag-dominated optimum does not (this study's Nav2 runs measures RMSE ~ L^1.5 and
+     lag-dominated optimum does not (this study and Nav2 measures RMSE ~ L^1.5 and
      strongly tau-dependent).
 
 Data: crowd_control_engine/unified_vstar_results.json (the repository the SciRep
 manuscript points to), read directly from the zip.
 
-Usage:  python3 d57_letg_main_vs_letg2_2026-09-07.py
+Usage:  python3 d57_engine_study_vs_this_study_2026-09-07.py
 """
 import json
 import pathlib
@@ -46,7 +46,16 @@ import zipfile
 import numpy as np
 from scipy.optimize import least_squares
 
-ZIP = pathlib.Path(r'C:\Users\betas\Downloads\crowd_control_engine (4).zip')
+ZIP = pathlib.Path(__file__).resolve().parents[2] / "engine" / "crowd_control_engine"   # the engine as it ships in this package
+
+
+class _DirAsZip:                       # the engine ships unpacked here; read its files the same way
+    def __init__(self, root):
+        self.root = pathlib.Path(root)
+
+    def read(self, name):
+        return (self.root.parent / name).read_bytes()
+
 HERE = pathlib.Path(__file__).parent
 
 LOOK = 2.0          # simulation_main.py: trajectory look-ahead distance (m)
@@ -57,7 +66,7 @@ TAU_EXTRA = WIN / 2 + DT / SMOOTH     # this study's composition for this engine
 
 
 def load():
-    z = zipfile.ZipFile(ZIP)
+    z = _DirAsZip(ZIP)
     d = json.loads(z.read('crowd_control_engine/unified_vstar_results.json'))
     out = {}
     for geom, blob in d['results'].items():
@@ -157,14 +166,14 @@ def main():
     print('  THE REGIME TEST (this is the one that does not need a fit)')
     print('    the reference engine : RMSE_min = 0.244 m, tau-INDEPENDENT (CV 1.7%, its Table 3)')
     print('                -> a floor set by quantisation, not by the lag mechanism')
-    print('    this study's Nav2 runs: RMSE_min scales as L^1.5 (measured 1.5109) and moves')
+    print('    this study and Nav2: RMSE_min scales as L^1.5 (measured 1.5109) and moves')
     print('                strongly with tau -> lag-dominated, no quantisation floor')
     print('    The two experiments are therefore in DIFFERENT REGIMES of the same')
     print('    unified law v* = min(dither, lag), not in contradiction.')
 
-    json.dump(res, open(HERE / 'd57_letg_main_vs_letg2_2026-09-07.json', 'w'),
+    json.dump(res, open(HERE / 'd57_engine_study_vs_this_study_2026-09-07.json', 'w'),
               indent=2, default=float)
-    print('\n-> d57_letg_main_vs_letg2_2026-09-07.json')
+    print('\n-> d57_engine_study_vs_this_study_2026-09-07.json')
 
 
 if __name__ == '__main__':

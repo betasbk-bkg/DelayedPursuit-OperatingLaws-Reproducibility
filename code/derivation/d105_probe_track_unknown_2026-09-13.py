@@ -26,7 +26,7 @@ import time
 
 import yaml
 
-WS_PKG = '/home/betas/letg2_ws/src/letg2_nav2_validation/letg2_nav2_validation'
+WS_PKG = os.environ.get('WS_PKG', '/path/to/nav2_validation_ws/src/nav2_validation/nav2_validation')
 sys.path.insert(0, WS_PKG)
 import experiment as E  # noqa: E402
 
@@ -51,7 +51,7 @@ def launch_variant(mode, vel):
         lc['track_unknown_space'] = False
     yaml.safe_dump(p, open(pf, 'w'), sort_keys=False)
     log = f'{E.OUT_DIR}/stack_probe.log'
-    E.sh(f'setsid nohup ros2 launch letg2_nav2_validation pursuit_stack.launch.py '
+    E.sh(f'setsid nohup ros2 launch letg2_nav2_validation letg2_stack.launch.py '
          f'params_file:={pf} delay_sec:={TAU} update_duration:={E.TSIM_DEFAULT} '
          f'> {log} 2>&1 < /dev/null &')
     t0 = time.time()
