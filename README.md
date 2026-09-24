@@ -1,11 +1,11 @@
 # Two-Regime Operating Laws for Optimal Speed in Delayed and Quantized Pursuit Control
 
-Reproduction package — version 1.0.0
+Reproduction package — version 1.0.1
 
 - **Author:** BongKeun Song
 - **Affiliation:** Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU), Erlangen, Germany
 - **Corresponding author:** bongkeun.song@fau.de
-- **Package DOI:** see the *Cite all versions* box on this package's archive record; the concept DOI is stable across releases and is written into `CITATION.cff` from the next release on
+- **Package DOI:** [10.5281/zenodo.22931805](https://doi.org/10.5281/zenodo.22931805) — the concept DOI, stable across releases and always resolving to the newest one
 
 This package contains the code, the stored simulation results, the third-party-controller harness and
 the reference engine behind the paper. It does **not** contain the manuscript: the article text is
