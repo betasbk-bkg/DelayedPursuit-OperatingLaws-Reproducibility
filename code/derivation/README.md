@@ -5,6 +5,11 @@ run. They are the record of what produced each number, so they are not rewritten
 edit made for distribution is that the paths which pointed at the engine on the machine that ran them
 now point at `engine/crowd_control_engine` inside this package, so they work here without setup.
 
+Two results here are stored without their generator: `d98_graceful_isolation_2026-09-08.json` and
+`d129_border_fold_tangency_2026-09-14.json`. Those two were computed inline rather than from a saved
+script, and no script survives, so the JSON is the record. Everything else in this directory has the
+code that produced it beside it.
+
 Each script writes its JSON beside itself and prints what it computed. Nothing has to be re-run to read
 the results: every output file that the paper draws on ships with the script that made it.
 

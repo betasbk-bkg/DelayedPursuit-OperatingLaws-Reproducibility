@@ -1,6 +1,6 @@
 # Two-Regime Operating Laws for Optimal Speed in Delayed and Quantized Pursuit Control
 
-Reproduction package — version 1.0.1
+Reproduction package — version 1.0.2
 
 - **Author:** BongKeun Song
 - **Affiliation:** Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU), Erlangen, Germany

@@ -3,7 +3,7 @@ message: "If you use this package, please cite it through its concept DOI and ci
 title: "Two-Regime Operating Laws for Optimal Speed in Delayed and Quantized Pursuit Control — Reproduction Package"
 abstract: "Code, stored simulation results and the reference engine for the study of the interior tracking-error optimum of delayed look-ahead pursuit control, its two plant-class constants, and the periodic-orbit structure of the quantized loop."
 type: software
-version: "1.0.1"
+version: "1.0.2"
 date-released: "2026-09-24"
 doi: "10.5281/zenodo.22931805"
 license: MIT
